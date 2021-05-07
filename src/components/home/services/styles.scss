@@ -4,28 +4,32 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  height: 100%;
-  padding: 0px 150px;
+  padding: 10%;
+
   .services--details-container {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
     .services--details {
       display: flex;
-      align-items: center;
       justify-content: space-between;
       flex-direction: column;
+      min-height: 550px;
     }
+
     .services--header {
       display: flex;
       height: 180px;
       justify-content: space-between;
       flex-direction: column;
     }
+
     .services--text {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: column;
+      .golden-heading {
+        font-size: 18px;
+      }
 
       .services--text-lists {
         font-size: 16px;

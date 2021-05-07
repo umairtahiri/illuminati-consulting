@@ -9,7 +9,7 @@ const Services = () => {
         <div className="services--details">
           <div className="services--header">
             <header
-              className="heading"
+              className="golden-heading"
               style={{
                 maxWidth: "199px",
                 fontSize: "40px",
@@ -21,7 +21,7 @@ const Services = () => {
             <button className="button">TECH DOMAINS</button>
           </div>
           <div className="services--text">
-            <div className="heading">Customer Engagement via UI/UX</div>
+            <div className="golden-heading">Customer Engagement via UI/UX</div>
             <ul className="services--text-lists">
               <li>Business case analysis</li>
               <li>Project scoping and phase mapping</li>
@@ -34,7 +34,7 @@ const Services = () => {
         </div>
         <div className="services--details">
           <div className="services--text">
-            <div className="heading">Customer Engagement via UI/UX</div>
+            <div className="golden-heading">Customer Engagement via UI/UX</div>
             <ul className="services--text-lists">
               <li>Building mockups, wireframes, and clickable prototypes</li>
               <li>Human-centered design</li>
@@ -48,7 +48,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="services--text">
-            <div className="heading">Customer Engagement via UI/UX</div>
+            <div className="golden-heading">Customer Engagement via UI/UX</div>
             <ul className="services--text-lists">
               <li>iOS app development</li>
               <li>Android app development</li>
@@ -61,7 +61,7 @@ const Services = () => {
         </div>
         <div className="services--details">
           <div className="services--text">
-            <div className="heading">Customer Engagement via UI/UX</div>
+            <div className="golden-heading">Customer Engagement via UI/UX</div>
             <ul className="services--text-lists">
               <li>Consumer-oriented software development</li>
               <li>High usability, responsive software design</li>
@@ -73,7 +73,7 @@ const Services = () => {
             </ul>
           </div>
           <div className="services--text">
-            <div className="heading">Customer Engagement via UI/UX</div>
+            <div className="golden-heading">Customer Engagement via UI/UX</div>
             <ul className="services--text-lists">
               <li>QA and testing strategy enablement</li>
               <li>End-to-end manual testing</li>
