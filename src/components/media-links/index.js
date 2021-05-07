@@ -7,22 +7,23 @@ import twitter from "../../images/twitter.svg";
 
 import "./styles.scss";
 
-const MediaLinks = () => {
+const MediaLinks = (props) => {
+  const { background } = props;
   return (
     <div className="medialinks--main-container">
-      <div className="medialinks--container">
+      <div className="medialinks--container" style={{ background: background }}>
         <img src={twitter} alt="twitter" />
       </div>
-      <div className="medialinks--container">
+      <div className="medialinks--container" style={{ background: background }}>
         <img src={belogo} alt="belogo" />
       </div>
-      <div className="medialinks--container">
+      <div className="medialinks--container" style={{ background: background }}>
         <img src={star} alt="star" />
       </div>
-      <div className="medialinks--container">
+      <div className="medialinks--container" style={{ background: background }}>
         <img src={facebook} alt="facebook" />
       </div>
-      <div className="medialinks--container">
+      <div className="medialinks--container" style={{ background: background }}>
         <img src={instagram} alt="instagram" />
       </div>
     </div>

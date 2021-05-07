@@ -4,6 +4,7 @@ import MediaLinks from "../media-links";
 import Services from "../home/services";
 import Works from "../home/works";
 import Blog from "../home/blog";
+import Footer from "../footer";
 
 import "./styles.scss";
 
@@ -18,12 +19,13 @@ const Home = () => {
           help trigger a digital makeover and translete raw into measrable
           business growth.
         </div>
-        <MediaLinks />
+        <MediaLinks background="#333333" />
         <button className="home--button">Learn more</button>
       </div>
       <Services />
       <Works />
       <Blog />
+      <Footer />
     </>
   );
 };
