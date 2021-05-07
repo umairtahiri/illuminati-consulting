@@ -1,0 +1,15 @@
+.header--main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 200px;
+  background: #000000;
+  .header--button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+  }
+}

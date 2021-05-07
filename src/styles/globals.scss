@@ -3,8 +3,36 @@ body {
   font-family: "SF Pro Display";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+}
+#root {
+  height: 100%;
+}
+.app {
+  width: 100%;
+  height: 100%;
 }
 
 code {
   font-family: "SF Pro Display";
+}
+.heading {
+  color: #dba360;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.button {
+  width: 160px;
+  height: 40px;
+  border: 1.5px solid #dba360;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #dba360;
+  cursor: pointer;
 }
