@@ -11,7 +11,7 @@ const Menu = () => {
     <section className="menu-wrapper">
       <header className="menu-header">
         <img src={logo} alt="" />
-        <img src={cross} alt="" />
+        <img src={cross} alt="" style={{ cursor: "pointer" }} />
       </header>
       <div className="menu-body">
         <section className="right-section">
@@ -21,7 +21,7 @@ const Menu = () => {
               SERVICES <img src={arrow} alt="" />
             </div>
             <div id="demo" className="collapse">
-              <div className="collapse-option" style={{ marginTop: "30px" }}>
+              <div className="collapse-option" style={{ marginTop: "20px" }}>
                 Blockchain
               </div>
               <div className="collapse-option">CognItive Computing(AI)</div>
@@ -45,9 +45,9 @@ const Menu = () => {
             <div>NEWYORK NY10001</div>
             <div style={{ marginTop: "10px" }}>+1 (646) 490-0772 (USA)</div>
             <div style={{ marginTop: "10px" }}>
-              <u>iNFO@IPSWAP.AI</u>
+              <u>INFO@IPSWAP.AI</u>
             </div>
-            <div className="bottom-follow-us-component">Follow us</div>
+            <div className="follow-us-component">Follow us</div>
             <MediaLinks background="#E5E5E5" />
           </div>
         </section>
