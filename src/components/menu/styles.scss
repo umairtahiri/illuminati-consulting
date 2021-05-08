@@ -1,0 +1,41 @@
+.menu-logo-style {
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-right: 65%;
+  margin-bottom: 5%;
+}
+.menu-cross-style {
+  margin-bottom: 5%;
+}
+.menu-component {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  .collapse {
+    color: rgb(102, 101, 101);
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+  .menu-components-button {
+    background: transparent;
+    border: transparent;
+    margin: 5px;
+  }
+}
+
+.menu-address-component {
+  width: 50%;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bolder;
+  font-size: 25px;
+}
