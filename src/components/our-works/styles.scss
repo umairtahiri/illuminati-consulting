@@ -1,0 +1,34 @@
+.our-works--main-container {
+  padding: 10%;
+  .our-works--main-container {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 5px;
+
+    .our-works--img {
+      cursor: pointer;
+      margin-right: 20px;
+      margin-top: 3px;
+      &:hover {
+        fill: blue;
+      }
+    }
+    .our-works--headings {
+      color: #bbbbbb;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 24px;
+      .our-works--text {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .our-works--pictures-tag {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 0 0px 0;
+    flex-wrap: wrap;
+  }
+}
