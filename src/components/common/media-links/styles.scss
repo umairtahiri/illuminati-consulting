@@ -1,6 +1,7 @@
 .medialinks--main-container {
   display: flex;
   margin: 20px 0px;
+
   .medialinks--container {
     width: 30px;
     height: 30px;
@@ -9,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 5px;
+    margin-right: 15px;
     cursor: pointer;
   }
 }

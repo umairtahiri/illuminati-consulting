@@ -1,6 +1,6 @@
 import React from "react";
 
-import MediaLinks from "../media-links";
+import MediaLinks from "../common/media-links";
 
 import arrow from "../../images/arrow.svg";
 import "./styles.scss";
@@ -18,12 +18,12 @@ const Footer = () => {
         <div className="footer--text">
           +1 (646) 490-0772 (USA) <div>info@Illuminati Consulting.io</div>
         </div>
-        <div className="golden-heading footer--golden-text">Follow us</div>
+        <div className="golden-heading">Follow us</div>
         <MediaLinks background="#E5E5E5" />
       </div>
       <div className="footer--text-container">
         <div className="footer--text">SUBSCRIBE TO OUR NEWSLETTEr</div>
-        <div>
+        <div className="footer-input-wrapper">
           <input
             placeholder="Enter your E-mail address"
             className="footer--input"
