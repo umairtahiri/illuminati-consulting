@@ -1,6 +1,8 @@
 import React from "react";
 import cross from "../../images/cross-pic.svg";
 import logo from "../../images/logo.svg";
+import arrow from "../../images/arrow-down.svg";
+import MediaLinks from "../common/media-links";
 
 import "./styles.scss";
 
@@ -16,7 +18,7 @@ const Menu = () => {
           <div>
             <div className="golden-heading">ABOUT US</div>
             <div href="#demo" className="golden-heading" data-toggle="collapse">
-              SERVICES
+              SERVICES <img src={arrow} alt="" />
             </div>
             <div id="demo" className="collapse">
               <div className="collapse-option" style={{ marginTop: "30px" }}>
@@ -29,7 +31,7 @@ const Menu = () => {
               <div className="collapse-option">Web Accessibility</div>
             </div>
             <div className="golden-heading" data-toggle="collapse">
-              WORKS
+              WORKS <img src={arrow} alt="" />
             </div>
 
             <div className="golden-heading">BLOGS</div>
@@ -41,8 +43,12 @@ const Menu = () => {
             <div>520 WEST 28TH STREET</div>
             <div>SUIT 31</div>
             <div>NEWYORK NY10001</div>
-            <div>+1 (646) 490-0772 (USA)</div>
-            <div>iNFO@IPSWAP.AI</div>
+            <div style={{ marginTop: "10px" }}>+1 (646) 490-0772 (USA)</div>
+            <div style={{ marginTop: "10px" }}>
+              <u>iNFO@IPSWAP.AI</u>
+            </div>
+            <div className="bottom-follow-us-component">Follow us</div>
+            <MediaLinks background="#E5E5E5" />
           </div>
         </section>
       </div>
