@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import car from "../../../images/car.png";
 
-import PictureFrame from "../../common/picture-tag";
+import PictureFrame from "../../common/picture-frame";
 
 import angular from "../../../images/angular.svg";
 import bluetooth from "../../../images/bluetooth.svg";
@@ -20,16 +20,17 @@ const OurWorksInternal = () => {
   const history = useHistory();
   return (
     <div className="internal-works--main-container">
-      <div className="internal-works--header">
-        <img
-          onClick={() => history.push("/our-works")}
-          className="internal-works-back-arrow"
-          src={arrow}
-          alt="arrow"
-        />
+      <section
+        className="internal-works--header"
+        onClick={() => history.goBack()}
+      >
+        <img className="internal-works-back-arrow" src={arrow} alt="arrow" />
         <header className="golden-heading">back</header>
-      </div>
-      <PictureFrame pic={car} tag="Smart Drone - SYMA" />
+      </section>
+      <section className="banner-picture-frame">
+        <img className="picture-frame-img" src={car} alt="pic" />
+        <div className="pictrure-frame-tag">Smart Drone - SYMA</div>
+      </section>
       <section className="internal-works--details">
         <div className="internal--works--column1">
           <div className="inernal--works-text1">
@@ -77,12 +78,21 @@ const OurWorksInternal = () => {
           <div className="inernal--works-text1">
             <div className="golden-heading">Work done</div>
             <div className="description">
-              Mobile app for showroom navigation purposes and for car owners to
-              easily access maintenance and support services IoT software to
-              collect and store data from iBeacons AI software to analyze data
-              and generate heat maps & showroom visitor statistics Web app for
-              showroom employees and managers with dashboard showing real-time
-              information
+              <ul>
+                <li>
+                  Mobile app for showroom navigation purposes and for car owners
+                  to easily access maintenance and support services
+                </li>
+                <li> IoT software to collect and store data from iBeacons</li>
+                <li>
+                  AI software to analyze data and generate heat maps & showroom
+                  visitor statistics
+                </li>
+                <li>
+                  Web app for showroom employees and managers with dashboard
+                  showing real-time information
+                </li>
+              </ul>
             </div>
           </div>
         </div>

@@ -4,13 +4,13 @@ import menu from "../../images/menu.svg";
 
 import "./styles.scss";
 
-const Header = () => {
+const Header = ({ onMenuBtn }) => {
   return (
     <div className="header--main-container">
       <img src={logo} alt="logo" />
       <div className="header--button-container">
         <button className="button">GET IN TOUCH</button>
-        <img src={menu} alt="menu" />
+        <img className="menu-btn" src={menu} alt="menu" onClick={onMenuBtn} />
       </div>
     </div>
   );

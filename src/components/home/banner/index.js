@@ -13,7 +13,8 @@ import "./styles.scss";
 const Banner = () => {
   const history = useHistory();
   const params = useParams();
-  const { type } = params;
+  const { type = "" } = params;
+
   return (
     <div className="banner--main-container">
       {type.includes("connected") && (
@@ -101,19 +102,19 @@ const Banner = () => {
       <div className="dots-container">
         <div
           className="dot"
-          onClick={() => history.push("/connected-device")}
+          onClick={() => history.push("/home/connected-device")}
         ></div>
         <div
           className="dot"
-          onClick={() => history.push("/full-cycle-solution-engineering")}
+          onClick={() => history.push("/home/full-cycle-solution-engineering")}
         ></div>
         <div
           className="dot"
-          onClick={() => history.push("/artificial-intelligence")}
+          onClick={() => history.push("/home/artificial-intelligence")}
         ></div>
         <div
           className="dot"
-          onClick={() => history.push("/blockchain-development")}
+          onClick={() => history.push("/home/blockchain-development")}
         ></div>
       </div>
     </div>

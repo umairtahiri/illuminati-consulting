@@ -17,6 +17,7 @@
       justify-content: space-between;
       flex-direction: column;
       min-height: 550px;
+      flex: 1;
     }
 
     .services--header {
@@ -28,14 +29,15 @@
 
     .services--text {
       .golden-heading {
-        font-size: 18px;
+        font-size: 16px;
+        margin-bottom: 15px;
       }
 
       .services--text-lists {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 25px;
         color: #989898;
-        max-width: 300px;
+        padding-left: 25px;
       }
     }
   }

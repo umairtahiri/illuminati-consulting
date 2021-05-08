@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
-import { Route, useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Route, Switch, useHistory } from "react-router-dom";
+import { Fade } from "react-reveal";
 
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Menu from "./components/menu";
 import Home from "./components/home";
 import OurWorks from "./components/our-works";
 import OurWorksInternal from "./components/our-works/our-works-internal";
@@ -12,17 +14,33 @@ import "./styles/globals.scss";
 const App = () => {
   const history = useHistory();
 
-  // useEffect(() => {
-  //   history && history.push("/connected-device");
-  // }, []);
+  const [showMenu, setShowMenu] = useState();
+
+  useEffect(() => {
+    history && history.push(`/home/connected-device`);
+  }, []);
 
   return (
     <div className="app">
-      <Header />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/our-works" component={OurWorks} />
-      <Route exact path="/our-works/:work" component={OurWorksInternal} />
-      <Footer />
+      {showMenu ? (
+        <Fade top>
+          <Menu onMenuBtnClose={() => setShowMenu(false)} />
+        </Fade>
+      ) : (
+        <>
+          <Header onMenuBtn={() => setShowMenu(true)} />
+          <Switch>
+            <Route exact path="/home/:type" component={Home} />
+            <Route exact path="/our-works/:work" component={OurWorks} />
+            <Route
+              exact
+              path="/our-works/:work/details"
+              component={OurWorksInternal}
+            />
+          </Switch>
+          <Footer />
+        </>
+      )}
     </div>
   );
 };

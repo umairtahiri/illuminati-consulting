@@ -1,41 +1,87 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
+
 import cross from "../../images/cross-pic.svg";
 import logo from "../../images/logo.svg";
 import arrow from "../../images/arrow-down.svg";
 import MediaLinks from "../common/media-links";
 
+import { servicesOptions, ourWorksOptions } from "../../utils/helpers";
+
 import "./styles.scss";
 
-const Menu = () => {
+const Menu = ({ onMenuBtnClose }) => {
+  const history = useHistory();
+
+  const handleNavigation = (path) => {
+    history.push(path);
+    onMenuBtnClose();
+  };
+
   return (
     <section className="menu-wrapper">
       <header className="menu-header">
         <img src={logo} alt="" />
-        <img src={cross} alt="" style={{ cursor: "pointer" }} />
+        <img
+          src={cross}
+          alt=""
+          style={{ cursor: "pointer" }}
+          onClick={onMenuBtnClose}
+        />
       </header>
       <div className="menu-body">
         <section className="right-section">
           <div>
-            <div className="golden-heading">ABOUT US</div>
-            <div href="#demo" className="golden-heading" data-toggle="collapse">
+            <div
+              className="golden-heading"
+              onClick={() => handleNavigation("/about-us")}
+            >
+              ABOUT US
+            </div>
+            <div
+              href="#services"
+              className="golden-heading"
+              data-toggle="collapse"
+            >
               SERVICES <img src={arrow} alt="" />
             </div>
-            <div id="demo" className="collapse">
-              <div className="collapse-option" style={{ marginTop: "20px" }}>
-                Blockchain
-              </div>
-              <div className="collapse-option">CognItive Computing(AI)</div>
-              <div className="collapse-option">Connected Device (IOT)</div>
-              <div className="collapse-option">Web Development</div>
-              <div className="collapse-option">Mobile App Development</div>
-              <div className="collapse-option">Web Accessibility</div>
+            <div id="services" className="collapse">
+              {servicesOptions.map((s, index) => (
+                <div className="collapse-option" key={index}>
+                  {s.label}
+                </div>
+              ))}
             </div>
-            <div className="golden-heading" data-toggle="collapse">
+            <div
+              href="#works"
+              className="golden-heading"
+              data-toggle="collapse"
+            >
               WORKS <img src={arrow} alt="" />
             </div>
-
-            <div className="golden-heading">BLOGS</div>
-            <div className="golden-heading">CONTACT US</div>
+            <div id="works" className="collapse">
+              {ourWorksOptions.map((s, index) => (
+                <div
+                  className="collapse-option"
+                  key={index}
+                  onClick={() => handleNavigation(`/our-works/${s.path}`)}
+                >
+                  {s.label}
+                </div>
+              ))}
+            </div>
+            <div
+              className="golden-heading"
+              onClick={() => handleNavigation("/blog")}
+            >
+              BLOGS
+            </div>
+            <div
+              className="golden-heading"
+              onClick={() => handleNavigation("/contact-us")}
+            >
+              CONTACT US
+            </div>
           </div>
         </section>
         <section className="left-section">

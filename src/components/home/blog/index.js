@@ -9,7 +9,7 @@ const Blog = () => {
       <header className="golden-heading">Blog</header>
       <section className="all-blogs-gallery">
         <div className="single-blog">
-          <img src={blog} className="thumbnail" alt="blog" />
+          <img src={blog} className="blog-thumbail" alt="blog" />
           <div className="golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by
@@ -17,7 +17,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="single-blog">
-          <img src={blog} className="thumbnail" alt="blog" />
+          <img src={blog} className="blog-thumbail" alt="blog" />
           <div className="golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by
@@ -25,7 +25,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="single-blog">
-          <img src={blog} className="thumbnail" alt="blog" />
+          <img src={blog} className="blog-thumbail" alt="blog" />
           <div className="golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by

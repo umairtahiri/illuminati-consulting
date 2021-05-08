@@ -8,7 +8,7 @@ const PictureFrame = (props) => {
       <img
         className="picture-frame-img"
         src={pic}
-        alt="pic1"
+        alt="pic"
         onClick={onclick}
       />
       <div className="pictrure-frame-tag">{tag}</div>

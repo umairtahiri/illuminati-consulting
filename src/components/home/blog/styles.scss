@@ -7,9 +7,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 
     .single-blog {
-      .thumbnail {
+      flex: 1;
+
+      .blog-thumbail {
         width: 325px;
         height: 225px;
         object-fit: contain;

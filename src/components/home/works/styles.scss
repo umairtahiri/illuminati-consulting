@@ -4,33 +4,12 @@
   .works--pictures {
     display: flex;
     justify-content: space-between;
-    margin: 75px 0 150px 0;
+    margin: 7rem 0 15rem 0;
+    flex-wrap: wrap;
 
-    .picture-area {
-      position: relative;
+    .picture-frame {
       flex: 1;
-
-      .picture {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-
-      .tag {
-        position: absolute;
-        width: 300px;
-        height: 40px;
-        background: #dba360;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 24px;
-        text-transform: uppercase;
-        color: #ffffff;
-        padding: 15px;
-        bottom: -30px;
-        right: 0;
-      }
+      margin: 0;
     }
   }
 
