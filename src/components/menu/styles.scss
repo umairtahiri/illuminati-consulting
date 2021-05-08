@@ -1,31 +1,32 @@
-.menu-logo-style {
-  margin-left: 15%;
-  margin-top: 5%;
-  margin-right: 65%;
-  margin-bottom: 5%;
-}
-.menu-cross-style {
-  margin-bottom: 5%;
-}
-.menu-component {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+.menu-wrapper {
+  padding: 3% 10%;
+  padding-bottom: 10%;
 
-  .collapse {
-    color: rgb(102, 101, 101);
-    font-weight: lighter;
-    font-size: 20px;
+  .menu-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10%;
   }
 
-  .menu-components-button {
-    background: transparent;
-    border: transparent;
-    margin: 5px;
+  .menu-body {
+    display: flex;
+
+    .right-section {
+      flex: 1;
+    }
+
+    .collapse-option {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #989898;
+    }
+
+    .left-section {
+      flex: 1;
+    }
   }
 }
 

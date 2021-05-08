@@ -1,47 +1,50 @@
 import React from "react";
+import cross from "../../images/cross-pic.svg";
+import logo from "../../images/logo.svg";
+
 import "./styles.scss";
-import cross from "../../../src/images/cross-pic.svg";
-import "../../../src/images/logo.svg";
 
 const Menu = () => {
   return (
-    <section>
-      <div>
-        <img className="menu-logo-style" src="logo.svg" />
-        <img clssName="menu-cross-style" src={cross} />
-      </div>
-      <div className="golden-heading">
-        <section className="menu-component">
-          <button className="menu-components-button">ABOUT US</button>
-          <button
-            href="#demo"
-            className="menu-components-button"
-            data-toggle="collapse"
-          >
-            SERVICES
-          </button>
-          <div id="demo" className="collapse">
-            <div>Blockchain</div>
-            <div>CognItive Computing(AI)</div>
-            <div>Connected Device (IOT)</div>
-            <div>Web Development</div>
-            <div>Mobile App Development</div>
-            <div>Web Accessibility</div>
-          </div>
-          <button className="menu-components-button" data-toggle="collapse">
-            WORKS
-          </button>
+    <section className="menu-wrapper">
+      <header className="menu-header">
+        <img src={logo} alt="" />
+        <img src={cross} alt="" />
+      </header>
+      <div className="menu-body">
+        <section className="right-section">
+          <div>
+            <div className="golden-heading">ABOUT US</div>
+            <div href="#demo" className="golden-heading" data-toggle="collapse">
+              SERVICES
+            </div>
+            <div id="demo" className="collapse">
+              <div className="collapse-option" style={{ marginTop: "30px" }}>
+                Blockchain
+              </div>
+              <div className="collapse-option">CognItive Computing(AI)</div>
+              <div className="collapse-option">Connected Device (IOT)</div>
+              <div className="collapse-option">Web Development</div>
+              <div className="collapse-option">Mobile App Development</div>
+              <div className="collapse-option">Web Accessibility</div>
+            </div>
+            <div className="golden-heading" data-toggle="collapse">
+              WORKS
+            </div>
 
-          <button className="menu-components-button">BLOGS</button>
-          <button className="menu-components-button">CONTACT US</button>
+            <div className="golden-heading">BLOGS</div>
+            <div className="golden-heading">CONTACT US</div>
+          </div>
         </section>
-      </div>
-      <div className="menu-address-component">
-        <div>520 WEST 28TH STREET</div>
-        <div>SUIT 31</div>
-        <div>NEWYORK NY10001</div>
-        <div>+1 (646) 490-0772 (USA)</div>
-        <div>iNFO@IPSWAP.AI</div>
+        <section className="left-section">
+          <div className="menu-address-component">
+            <div>520 WEST 28TH STREET</div>
+            <div>SUIT 31</div>
+            <div>NEWYORK NY10001</div>
+            <div>+1 (646) 490-0772 (USA)</div>
+            <div>iNFO@IPSWAP.AI</div>
+          </div>
+        </section>
       </div>
     </section>
   );
