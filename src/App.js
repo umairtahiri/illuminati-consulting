@@ -8,6 +8,7 @@ import Menu from "./components/menu";
 import Home from "./components/home";
 import OurWorks from "./components/our-works";
 import OurWorksInternal from "./components/our-works/our-works-internal";
+import AboutUs from "./components/about-us";
 
 import "./styles/globals.scss";
 
@@ -37,6 +38,7 @@ const App = () => {
               path="/our-works/:work/details"
               component={OurWorksInternal}
             />
+            <Route exact path="/about-us" component={AboutUs} />
           </Switch>
           <Footer />
         </>

@@ -9,7 +9,7 @@ import bluetooth from "../../../images/bluetooth.svg";
 import flower from "../../../images/flower.svg";
 import nodejs from "../../../images/nodejs.svg";
 import xavier from "../../../images/xavier.svg";
-import arrow from "../../../images/arrow.svg";
+import arrow from "../../../images/right-arrow.svg";
 import ourworkspic7 from "../../../images/works-pic7.png";
 import ourworkspic8 from "../../../images/works-pic8.png";
 import ourworkspic9 from "../../../images/works-pic9.png";

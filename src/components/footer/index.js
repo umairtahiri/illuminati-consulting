@@ -2,7 +2,7 @@ import React from "react";
 
 import MediaLinks from "../common/media-links";
 
-import arrow from "../../images/arrow.svg";
+import arrow from "../../images/right-arrow.svg";
 import "./styles.scss";
 
 const Footer = () => {
