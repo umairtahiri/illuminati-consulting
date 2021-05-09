@@ -2,11 +2,11 @@ import React from "react";
 import "./styles.scss";
 
 const BlogLink = (props) => {
-  const { pic, label, date, desc } = props;
+  const { pic, label, date, desc, onclick } = props;
   return (
     <div className="bloglink--main-container">
       <div className="bloglink--img-container">
-        <img alt="img" src={pic} className="bloglink-img" />
+        <img alt="img" src={pic} className="bloglink-img" onClick={onclick} />
       </div>
       <div className="bloglink--date">{date}</div>
       <div className="golden-heading bloglink--label">{label}</div>

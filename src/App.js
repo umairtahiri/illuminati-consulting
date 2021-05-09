@@ -9,6 +9,7 @@ import Home from "./components/home";
 import OurWorks from "./components/our-works";
 import OurWorksInternal from "./components/our-works/our-works-internal";
 import Blog from "./components/blog";
+import BlogPage from "./components/blog/blog-page";
 
 import "./styles/globals.scss";
 
@@ -39,6 +40,7 @@ const App = () => {
               component={OurWorksInternal}
             />
             <Route exact path="/blog" component={Blog} />
+            <Route exact path="/blog/internal-page" component={BlogPage} />
           </Switch>
           <Footer />
         </>
