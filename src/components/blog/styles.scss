@@ -1,0 +1,117 @@
+.blog-main-container {
+  padding: 0% 10% 10% 10%;
+  .blog--links-banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .blog--links-container {
+      align-items: flex-start;
+      box-sizing: border-box;
+      padding-top: 5px;
+      min-width: 308px;
+      margin-right: 40px;
+
+      .link-container {
+        display: flex;
+
+        .arrow-container {
+          width: 35px;
+          display: flex;
+          align-items: center;
+
+          .selected-arrow {
+            cursor: pointer;
+            width: 20px;
+          }
+        }
+
+        .link-label {
+          cursor: pointer;
+          color: #bbbbbb;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 40px;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+        }
+
+        .selected-option {
+          color: #dba360;
+        }
+      }
+    }
+    .blog--links-banner {
+      width: 100%;
+
+      justify-content: space-between;
+      display: flex;
+
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      background-image: url("../../images/blogbanner.png");
+      .blog-banner-dots-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100%;
+        box-sizing: border-box;
+        padding: 13% 0%;
+        margin-right: 2%;
+
+        .dot {
+          width: 10px;
+          background: white;
+          height: 10px;
+          border-radius: 50%;
+          margin: 10px 0px;
+          cursor: pointer;
+        }
+      }
+      .blog--links-banner-text {
+        padding: 0px 0px 40px 40px;
+        box-sizing: border-box;
+        .blog-banner-text {
+          margin-top: 21%;
+          box-sizing: border-box;
+
+          .blog-banner-heading {
+            font-size: 16px;
+            margin-bottom: 15px;
+            width: 70%;
+          }
+          .blog-banner-description {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 19px;
+            width: 70%;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .bloglink--container {
+    box-sizing: border-box;
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .blog-link-pagination {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 400px 0px 400px;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #989898;
+    .blog-link-back-arrow {
+      transform: rotate(180deg);
+      cursor: pointer;
+    }
+  }
+}
