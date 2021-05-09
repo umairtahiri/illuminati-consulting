@@ -42,13 +42,11 @@
     }
     .blog--links-banner {
       width: 100%;
-
       justify-content: space-between;
       display: flex;
-
       background-repeat: no-repeat;
       background-size: contain;
-
+      background-color: #000;
       background-image: url("../../images/blogbanner.png");
       .blog-banner-dots-container {
         display: flex;
@@ -70,35 +68,44 @@
         }
       }
       .blog--links-banner-text {
-        padding: 0px 0px 40px 40px;
+        padding: 0px 130px 30px 30px;
         box-sizing: border-box;
+        background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        display: flex;
+        align-items: flex-end;
         .blog-banner-text {
           margin-top: 21%;
           box-sizing: border-box;
 
-          .blog-banner-heading {
+          .golden-heading {
             font-size: 16px;
             margin-bottom: 15px;
-            width: 70%;
           }
+
           .blog-banner-description {
             font-weight: normal;
             font-size: 12px;
             line-height: 19px;
-            width: 70%;
             color: #ffffff;
           }
         }
       }
     }
   }
+
   .bloglink--container {
     box-sizing: border-box;
     padding-top: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    .bloglink--main-container {
+      max-width: 290px;
+      margin-bottom: 40px;
+    }
   }
+
   .blog-link-pagination {
     display: flex;
     width: 100%;
