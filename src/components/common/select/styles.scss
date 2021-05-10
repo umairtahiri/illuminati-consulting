@@ -1,5 +1,7 @@
 .ant-select {
   width: 100%;
+  flex: 1;
+  margin-top: 5px;
 
   .ant-select-selector {
     width: 100%;
@@ -10,6 +12,8 @@
     border-bottom: 1px solid #86868b !important;
     height: 40px;
     cursor: pointer;
+    padding-left: 0 !important;
+    border-radius: 0px !important;
   }
 
   .ant-select-focused {
@@ -37,5 +41,6 @@
 
   &:hover {
     background: #bbb !important;
+    color: #212121 !important;
   }
 }

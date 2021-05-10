@@ -5,12 +5,9 @@ import "./styles.scss";
 
 const { Option } = Select;
 
-const IlluminatiSelect = ({ option, placeholder }) => {
+const IlluminatiSelect = ({ option, defaultOption, style }) => {
   return (
-    <Select open>
-      <Option>Abc</Option>
-      <Option>Def</Option>
-      <Option>Ghi</Option>
+    <Select defaultValue={defaultOption} style={style}>
       {option &&
         option.map((o, index) => (
           <Option className="option" value={o.value} key={index}>
