@@ -8,11 +8,7 @@ import Home from "./components/home";
 import OurWorks from "./components/our-works";
 import OurWorksInternal from "./components/our-works/our-works-internal";
 import Blog from "./components/blog";
-<<<<<<< HEAD
 import FullBlog from "./components/blog/full-blog";
-=======
-import BlogPage from "./components/blog/blog-page";
->>>>>>> fc147c28f7b7da7e30a4b6ec302c21a6f0ae93fe
 import AboutUs from "./components/about-us";
 import ContactUs from "./components/contact-us";
 
