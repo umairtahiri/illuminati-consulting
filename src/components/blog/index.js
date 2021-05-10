@@ -12,6 +12,9 @@ import "./styles.scss";
 
 const Blog = () => {
   const history = useHistory();
+  const openBlog = () => {
+    history && history.push("blog/internal-page");
+  };
 
   return (
     <div className="blog-main-container">
@@ -86,7 +89,13 @@ const Blog = () => {
       <section className="bloglink--container">
         {BlogContent.map((e) => {
           return (
-            <BlogLink pic={blog} label={e.label} date={e.date} desc={e.desc} />
+            <BlogLink
+              onclick={openBlog}
+              pic={blog}
+              label={e.label}
+              date={e.date}
+              desc={e.desc}
+            />
           );
         })}
       </section>
