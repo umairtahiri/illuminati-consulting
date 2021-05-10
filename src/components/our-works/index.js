@@ -12,7 +12,7 @@ import ourWorksPic6 from "../../images/works-pic6.png";
 import ourWorksPic7 from "../../images/works-pic7.png";
 import ourWorksPic8 from "../../images/works-pic8.png";
 import ourWorksPic9 from "../../images/works-pic9.png";
-import arrow from "../../images/arrow.svg";
+import arrow from "../../images/right-arrow.svg";
 
 import { ourWorksOptions } from "../../utils/helpers";
 import "./styles.scss";

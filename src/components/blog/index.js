@@ -1,12 +1,12 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { ourWorksOptions } from "../../utils/helpers";
-import arrow from "../../images/arrow.svg";
+
+import { ourWorksOptions, BlogContent } from "../../utils/helpers";
+
+import arrow from "../../images/right-arrow.svg";
 
 import BlogLink from "../common/blog-link";
 import blog from "../../images/blog.png";
-
-import { BlogContent } from "../../utils/helpers";
 
 import "./styles.scss";
 
@@ -51,12 +51,12 @@ const Blog = () => {
         <div className="blog--links-banner">
           <div className="blog--links-banner-text">
             <div className="blog-banner-text">
-              <div className="golden-heading blog-banner-heading">
+              <div className="golden-heading">
                 An Update on the Implementation of the New FATF Travel Rule
                 Requirements
               </div>
               <div className="blog-banner-description">
-                n September, we touched on probably one of the biggest
+                In September, we touched on probably one of the biggest
                 developments in the crypto community to date – the FATF’s
                 implementation of the new “travel rules” (new requirements for
                 the provisioning of personal identifiable information (PII)
@@ -67,21 +67,21 @@ const Blog = () => {
           <div className="blog-banner-dots-container">
             <div
               className="dot"
-              onClick={() => history.push("/home/connected-device")}
+              // onClick={() => history.push("/home/connected-device")}
             ></div>
             <div
               className="dot"
-              onClick={() =>
-                history.push("/home/full-cycle-solution-engineering")
-              }
+              // onClick={() =>
+              //   history.push("/home/full-cycle-solution-engineering")
+              // }
             ></div>
             <div
               className="dot"
-              onClick={() => history.push("/home/artificial-intelligence")}
+              // onClick={() => history.push("/home/artificial-intelligence")}
             ></div>
             <div
               className="dot"
-              onClick={() => history.push("/home/blockchain-development")}
+              // onClick={() => history.push("/home/blockchain-development")}
             ></div>
           </div>
         </div>
