@@ -1,0 +1,18 @@
+.client-satisfaction-main-container {
+  background: url("../../../images/clientBack1.png");
+  background-repeat: no-repeat;
+
+  .overlay {
+    padding: 10% 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.63);
+
+    .client-satisfaction-img-container {
+      margin-top: 60px;
+    }
+  }
+}

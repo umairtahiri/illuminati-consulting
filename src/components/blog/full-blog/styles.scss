@@ -16,7 +16,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding-top: 5px;
+
+      .date {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 10px;
+        color: #989898;
+      }
     }
 
     .blog-page-media-links {

@@ -7,8 +7,8 @@ import instagram from "../../../images/instagram.svg";
 import blogbitcoin from "../../../images/blogbitcoin.png";
 import BlogLink from "../../common/blog-link";
 import blog from "../../../images/blog.png";
+import calender from "../../../images/calender.svg";
 
-import { DatePicker } from "antd";
 import "./styles.scss";
 
 const BlogPage = () => {
@@ -20,7 +20,8 @@ const BlogPage = () => {
       <img className="blogbanner" alt="banner" src={blogbanner} />
       <div className="blog-page-calender-links">
         <div className="blog-page-calender-container">
-          <DatePicker style={{ cursor: "pointer" }} onChange={onChange} />
+          <img alt="calender" style={{ cursor: "pointer" }} src={calender} />
+          <div className="date">January 18, 2021 </div>
         </div>
         <div className="blog-page-media-links">
           <div className="media-links-container">

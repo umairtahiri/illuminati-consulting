@@ -1,0 +1,28 @@
+.tech-platforms-main-container {
+  padding: 10% 15% 10% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .tech-platforms-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .tech-platforms-description {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 0 10%;
+    color: #989898;
+  }
+
+  .tech-platforms-logos {
+    margin-top: 100px;
+  }
+}

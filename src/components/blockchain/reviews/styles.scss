@@ -1,0 +1,100 @@
+.reviews-main-container {
+  padding: 10% 15% 10% 15%;
+
+  .review-client-details {
+    position: relative;
+
+    .overlay {
+      padding-left: 5%;
+      padding-bottom: 5%;
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.72);
+
+      .waves {
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .client-details-container {
+        position: absolute;
+        padding: 0% 18% 0% 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        .client-name {
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 21px;
+          margin-bottom: 2%;
+          margin-top: 3%;
+        }
+
+        .client-designation {
+          font-size: 18px;
+          line-height: 21px;
+          color: #989898;
+          margin-bottom: 8%;
+        }
+
+        .client-review {
+          font-size: 18px;
+          line-height: 21px;
+          text-align: center;
+          color: #cccccc;
+          margin-bottom: 8%;
+        }
+
+        .stars-container {
+          box-sizing: border-box;
+          align-items: flex-end;
+          width: 150px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+
+    .review-right-arrow-conatiner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #dba360;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 45%;
+      right: -20px;
+      cursor: pointer;
+    }
+
+    .review-left-arrow-conatiner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #dba360;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: 45%;
+      left: -20px;
+      cursor: pointer;
+    }
+
+    .client-pic {
+      position: absolute;
+      top: -50px;
+      left: 45%;
+    }
+  }
+}
