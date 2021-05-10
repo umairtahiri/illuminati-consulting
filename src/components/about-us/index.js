@@ -13,7 +13,7 @@ const AboutUs = () => {
   return (
     <div className="about-us--main-container">
       <section className="about-us--general-details">
-        <div className="golden-heading">
+        <div className="golden-heading" style={{ textAlign: "center" }}>
           Open communication, equality and loyalty are the foundation of ips wap
           culture.
         </div>

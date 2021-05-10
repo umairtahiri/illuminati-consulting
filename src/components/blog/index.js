@@ -64,21 +64,21 @@ const Blog = () => {
           <div className="blog-banner-dots-container">
             <div
               className="dot"
-              onClick={() => history.push("/home/connected-device")}
+              // onClick={() => history.push("/home/connected-device")}
             ></div>
             <div
               className="dot"
-              onClick={() =>
-                history.push("/home/full-cycle-solution-engineering")
-              }
+              // onClick={() =>
+              //   history.push("/home/full-cycle-solution-engineering")
+              // }
             ></div>
             <div
               className="dot"
-              onClick={() => history.push("/home/artificial-intelligence")}
+              // onClick={() => history.push("/home/artificial-intelligence")}
             ></div>
             <div
               className="dot"
-              onClick={() => history.push("/home/blockchain-development")}
+              // onClick={() => history.push("/home/blockchain-development")}
             ></div>
           </div>
         </div>

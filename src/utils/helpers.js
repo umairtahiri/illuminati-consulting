@@ -138,7 +138,9 @@ export const teamMembers = [
   },
 ];
 
-export const checkIfScreenIsWhite = (location) => {
+export const checkIfScreenIsBlack = (location) => {
   const { pathname } = location;
-  return ["home, contact"].some((p) => !pathname.includes(p));
+  const isBlack = ["home", "contact"].some((p) => pathname.includes(p));
+  console.log({ isBlack });
+  return isBlack;
 };
