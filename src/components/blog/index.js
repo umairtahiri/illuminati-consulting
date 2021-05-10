@@ -36,7 +36,7 @@ const Blog = () => {
                       ? "link-label selected-option"
                       : "link-label"
                   }
-                  onClick={() => history.push(`/our-works/${o.path}`)}
+                  onClick={() => history.push(`/blog/${o.path}`)}
                 >
                   {o.label}
                 </div>

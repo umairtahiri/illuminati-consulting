@@ -8,6 +8,7 @@ import Home from "./components/home";
 import OurWorks from "./components/our-works";
 import OurWorksInternal from "./components/our-works/our-works-internal";
 import Blog from "./components/blog";
+import FullBlog from "./components/blog/full-blog";
 import AboutUs from "./components/about-us";
 import ContactUs from "./components/contact-us";
 
@@ -34,6 +35,7 @@ const App = () => {
           component={OurWorksInternal}
         />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog/:blogTitle" component={FullBlog} />
         <Route exact path="/about-us" component={AboutUs} />
         <Route exact path="/contact-us" component={ContactUs} />
       </Switch>
