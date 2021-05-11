@@ -39,7 +39,7 @@ const App = () => {
         <Route exact path="/blog/:blogTitle" component={FullBlog} />
         <Route exact path="/about-us" component={AboutUs} />
         <Route exact path="/contact-us" component={ContactUs} />
-        <Route exact path="/blockchain" component={BlockChain} />
+        <Route exact path="/services/blockchain" component={BlockChain} />
       </Switch>
       {!location.pathname.includes("menu") && <Footer />}
     </div>

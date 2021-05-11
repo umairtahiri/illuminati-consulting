@@ -36,17 +36,13 @@ const Menu = () => {
               >
                 SERVICES <img src={arrow} alt="" />
               </div>
-              <div
-                href="#blockchain"
-                className="golden-heading"
-                data-toggle="collapse"
-                onClick={() => handleNavigation("/blockchain")}
-              >
-                BLOCKCHAIN
-              </div>
               <div id="services" className="collapse">
                 {servicesOptions.map((s, index) => (
-                  <div className="collapse-option" key={index}>
+                  <div
+                    className="collapse-option"
+                    key={index}
+                    onClick={() => handleNavigation("/services/blockchain")}
+                  >
                     {s.label}
                   </div>
                 ))}
