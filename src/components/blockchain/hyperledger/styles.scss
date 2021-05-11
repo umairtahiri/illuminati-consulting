@@ -1,0 +1,42 @@
+.hyperledger-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 10% 0;
+
+  .hyperledger-side1 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 6%;
+
+    .hyperledger-title {
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 36px;
+      text-align: right;
+      margin-bottom: 30px;
+    }
+
+    .hyperledger-text1 {
+      font-size: 18px;
+      line-height: 21px;
+      text-align: right;
+      color: #989898;
+    }
+  }
+
+  .hyperledger-side2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 6%;
+
+    .hyperledger-list-text {
+      box-sizing: border-box;
+      padding-right: 60%;
+      color: #989898;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

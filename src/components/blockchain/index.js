@@ -8,6 +8,7 @@ import Reviews from "./reviews";
 import TechnologyPlatforms from "./technology-platform";
 import Achievements from "./countable-achievements";
 import Enterprise from "./enterprise-progress";
+import Hyperledger from "./hyperledger";
 
 const BlockChain = () => {
   return (
@@ -15,6 +16,7 @@ const BlockChain = () => {
       <Banner />
       <ServicesInFocus />
       <Infrastructure />
+      <Hyperledger />
       <Enterprise />
       <Achievements />
       <TechnologyPlatforms />
