@@ -2,7 +2,10 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { useHistory, useParams } from "react-router-dom";
 
+import BlurCode from "./blur-code";
 import MediaLinks from "../../common/media-links";
+import ShadowHeading from "../../common/shadow-heading";
+
 import connectedDevice from "../../../images/connected-devices.png";
 import solutionEngg from "../../../images/solution-engineering.png";
 import bitcoin from "../../../images/bitcoin.png";
@@ -21,7 +24,7 @@ const Banner = () => {
         <Fade>
           <div className="slide-content">
             <section className="left-section">
-              <div className="golden-heading">connected devices (iot)</div>
+              <ShadowHeading text="connected devices (iot)" />
               <div className="home--description">
                 With Machine Learning and camputer Vision software engineering,
                 we help
@@ -32,7 +35,13 @@ const Banner = () => {
               <button className="home--button">Learn more</button>
             </section>
             <section className="right-section">
+              {/* <div>
+                <BlurCode />
+              </div> */}
               <img src={connectedDevice} className="slide-img" alt="" />
+              {/* <div>
+                <BlurCode />
+              </div> */}
             </section>
           </div>
         </Fade>
@@ -41,9 +50,7 @@ const Banner = () => {
         <Fade>
           <div className="slide-content">
             <section className="left-section">
-              <div className="golden-heading">
-                full-cycle solution engineering
-              </div>
+              <ShadowHeading text="full-cycle solution engineering" />
               <div className="home--description">
                 With Machine Learning and camputer Vision software engineering,
                 we help
@@ -63,7 +70,7 @@ const Banner = () => {
         <Fade>
           <div className="slide-content">
             <section className="left-section">
-              <div className="golden-heading">artificial intelligence</div>
+              <ShadowHeading text="artificial intelligence" />
               <div className="home--description">
                 With Machine Learning and camputer Vision software engineering,
                 we help
@@ -83,7 +90,7 @@ const Banner = () => {
         <Fade>
           <div className="slide-content">
             <section className="left-section">
-              <div className="golden-heading">Blockchain Development</div>
+              <ShadowHeading text="Blockchain Development" />
               <div className="home--description">
                 With Machine Learning and camputer Vision software engineering,
                 we help
