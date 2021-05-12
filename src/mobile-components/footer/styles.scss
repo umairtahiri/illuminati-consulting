@@ -1,9 +1,10 @@
-.footer--main-container {
+.mobile-footer--main-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
   box-sizing: border-box;
   padding: 5% 10%;
+  flex-direction: column;
 
   .footer--text {
     font-style: normal;
@@ -24,6 +25,20 @@
     text-transform: uppercase;
     color: #000000;
     width: fit-content;
+    margin-bottom: 10%;
+  }
+
+  .mobile-social-links-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% 0;
+
+    .footer-heading {
+      font-size: 25px;
+    }
   }
 
   .golden-heading {

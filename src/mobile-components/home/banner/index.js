@@ -10,6 +10,8 @@ import connectedDevice from "../../../images/connected-devices.png";
 import solutionEngg from "../../../images/solution-engineering.png";
 import bitcoin from "../../../images/bitcoin.png";
 import ai from "../../../images/ai.png";
+import faceTop from "../../../images/faceTop.png";
+import faceBottom from "../../../images/faceBottom.png";
 
 import "./styles.scss";
 
@@ -19,90 +21,83 @@ const Banner = () => {
   const { type = "" } = params;
 
   return (
-    <div className="banner--main-container">
+    <div className="mobile-banner--main-container">
       {type.includes("connected") && (
         <Fade>
           <div className="slide-content">
-            <section className="left-section">
-              <ShadowHeading text="connected devices (iot)" />
-              <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
-              </div>
-              <MediaLinks background="#333333" />
-              <button className="home--button">Learn more</button>
-            </section>
-            <section className="right-section">
-              {/* <div>
-                <BlurCode />
-              </div> */}
+            <ShadowHeading text="connected devices (iot)" />
+            <div className="home--description">
+              With Machine Learning and camputer Vision software engineering, we
+              help trigger a digital makeover and translete raw into measrable
+              business growth.
+            </div>
+            <button className="home--button">Learn more</button>
+            <div className="img-gradiat-container">
               <img src={connectedDevice} className="slide-img" alt="" />
-              {/* <div>
-                <BlurCode />
-              </div> */}
-            </section>
+              <div className="graiant-effect-top"></div>
+              <div className="graiant-effect-bottom"></div>
+            </div>
+            <MediaLinks background="#333333" />
           </div>
         </Fade>
       )}
       {type.includes("solution") && (
         <Fade>
           <div className="slide-content">
-            <section className="left-section">
-              <ShadowHeading text="full-cycle solution engineering" />
-              <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
-              </div>
-              <MediaLinks background="#333333" />
-              <button className="home--button">Learn more</button>
-            </section>
-            <section className="right-section">
-              <img src={solutionEngg} al className="slide-img" alt="" />
-            </section>
+            <ShadowHeading text="full-cycle solution engineering" />
+            <div className="home--description">
+              With Machine Learning and camputer Vision software engineering, we
+              help trigger a digital makeover and translete raw into measrable
+              business growth.
+            </div>
+            <button className="home--button">Learn more</button>
+            <div className="img-gradiat-container">
+              <img src={solutionEngg} className="slide-img" alt="" />
+              <div className="graiant-effect-right"></div>
+              <div className="graiant-effect-bottom"></div>
+            </div>
+
+            <MediaLinks background="#333333" />
           </div>
         </Fade>
       )}
       {type.includes("artificial") && (
         <Fade>
           <div className="slide-content">
-            <section className="left-section">
-              <ShadowHeading text="artificial intelligence" />
-              <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
-              </div>
-              <MediaLinks background="#333333" />
-              <button className="home--button">Learn more</button>
-            </section>
-            <section className="right-section">
+            <ShadowHeading text="artificial intelligence" />
+            <div className="home--description">
+              With Machine Learning and camputer Vision software engineering, we
+              help trigger a digital makeover and translete raw into measrable
+              business growth.
+            </div>
+
+            <button className="home--button">Learn more</button>
+
+            <div className="img-gradiat-container">
               <img src={bitcoin} className="slide-img" alt="" />
-            </section>
+            </div>
+            <MediaLinks background="#333333" />
           </div>
         </Fade>
       )}
       {type.includes("blockchain") && (
         <Fade>
           <div className="slide-content">
-            <section className="left-section">
-              <ShadowHeading text="Blockchain Development" />
-              <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
-              </div>
-              <MediaLinks background="#333333" />
-              <button className="home--button">Learn more</button>
-            </section>
-            <section className="right-section">
+            <ShadowHeading text="Blockchain Development" />
+            <div className="home--description">
+              With Machine Learning and camputer Vision software engineering, we
+              help trigger a digital makeover and translete raw into measrable
+              business growth.
+            </div>
+
+            <button className="home--button">Learn more</button>
+
+            <div className="img-gradiat-container">
               <img src={ai} className="slide-img" alt="" />
-            </section>
+              <img src={faceTop} className="face-top" alt="" />
+              <img src={faceBottom} className="face-bottom" alt="" />
+            </div>
+            <MediaLinks background="#333333" />
           </div>
         </Fade>
       )}

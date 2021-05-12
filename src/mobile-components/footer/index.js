@@ -7,7 +7,7 @@ import "./styles.scss";
 
 const Footer = () => {
   return (
-    <div className="footer--main-container">
+    <div className="mobile-footer--main-container">
       <div className="footer--text-container">
         <div className="footer--text">
           520 West 28th St.<div> Suite 31</div> New York, NY 10001
@@ -18,8 +18,10 @@ const Footer = () => {
         <div className="footer--text">
           +1 (646) 490-0772 (USA) <div>info@Illuminati Consulting.io</div>
         </div>
-        <div className="golden-heading">Follow us</div>
-        <MediaLinks background="#E5E5E5" />
+        <div className="mobile-social-links-container">
+          <div className="golden-heading footer-heading">Follow us</div>
+          <MediaLinks background="#E5E5E5" />
+        </div>
       </div>
       <div className="footer--text-container">
         <div className="footer--text">SUBSCRIBE TO OUR NEWSLETTEr</div>

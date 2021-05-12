@@ -1,10 +1,15 @@
-.works--main-container {
+.mobile-works--main-container {
   padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   .works--pictures {
     display: flex;
-    justify-content: space-between;
-    margin: 7rem 0 15rem 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 
     .picture-frame {
@@ -16,6 +21,7 @@
   .social-media-container {
     display: flex;
     justify-content: center;
+    margin-top: 10%;
   }
 
   .golden-heading {

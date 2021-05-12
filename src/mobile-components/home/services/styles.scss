@@ -1,44 +1,48 @@
-.services--main-container {
+.mobile-services--main-container {
   background: #212121;
   width: 100%;
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  justify-content: center;
   padding: 10%;
 
-  .services--details-container {
+  .services--header {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    .services--details {
+    .golden-heading {
+      font-size: 50px;
       display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      min-height: 550px;
-      flex: 1;
-    }
-
-    .services--header {
-      .golden-heading {
-        font-size: 50px;
-        position: relative;
-      }
-    }
-
-    .services--text {
-      .golden-heading {
-        font-size: 16px;
-        margin-bottom: 15px;
-      }
-
-      .services--text-lists {
-        font-size: 14px;
-        line-height: 25px;
-        color: #989898;
-        padding-left: 25px;
-      }
+      text-align: center;
+      padding: 0 10%;
+      position: relative;
     }
   }
+
+  .services--text {
+    padding: 10% 10% 0 10%;
+    box-sizing: border-box;
+
+    .golden-heading {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .services--text-lists {
+      font-size: 15px;
+      line-height: 25px;
+      color: #989898;
+      padding-left: 25px;
+    }
+  }
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

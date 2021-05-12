@@ -21,24 +21,23 @@ const Header = () => {
       style={{ background: isBlack ? "#000" : "#fff" }}
     >
       <img src={logo} alt="logo" />
-      <div className="header--button-container">
-        <button className="button">GET IN TOUCH</button>
-        {location.pathname.includes("menu") ? (
-          <img
-            src={cross}
-            alt=""
-            style={{ cursor: "pointer" }}
-            onClick={() => history.goBack()}
-          />
-        ) : (
-          <img
-            className="menu-btn"
-            src={menu}
-            alt="menu"
-            onClick={() => history.push("/menu")}
-          />
-        )}
-      </div>
+
+      <button className="button">GET IN TOUCH</button>
+      {location.pathname.includes("menu") ? (
+        <img
+          src={cross}
+          alt=""
+          style={{ cursor: "pointer" }}
+          onClick={() => history.goBack()}
+        />
+      ) : (
+        <img
+          className="menu-btn"
+          src={menu}
+          alt="menu"
+          onClick={() => history.push("/menu")}
+        />
+      )}
     </div>
   );
 };
