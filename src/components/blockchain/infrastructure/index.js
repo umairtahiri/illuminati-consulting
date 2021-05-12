@@ -1,6 +1,6 @@
 import React from "react";
 import goldenswirls from "../../../images/golden-swirls.png";
-import bitcin from "../../../images//bitcoin-1.png";
+
 import "./styles.scss";
 
 const Infrastructure = () => {
@@ -21,7 +21,6 @@ const Infrastructure = () => {
           </div>
         </section>
         <img className="golden-swirls" src={goldenswirls} alt="goldenSwirls" />
-        <img src={bitcin} className="bitcoin" alt="bitcoin" />
       </div>
     </div>
   );
