@@ -1,12 +1,14 @@
 import React from "react";
 import blog from "../../../images/blog.png";
 
+import ShadowHeading from "../../common/shadow-heading";
+
 import "./styles.scss";
 
 const Blog = () => {
   return (
     <div className="home-blog-container">
-      <header className="golden-heading">Blog</header>
+      <ShadowHeading text="Blog" />
       <section className="all-blogs-gallery">
         <div className="single-blog">
           <img src={blog} className="blog-thumbail" alt="blog" />

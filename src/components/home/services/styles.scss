@@ -21,10 +21,10 @@
     }
 
     .services--header {
-      display: flex;
-      height: 180px;
-      justify-content: space-between;
-      flex-direction: column;
+      .golden-heading {
+        font-size: 50px;
+        position: relative;
+      }
     }
 
     .services--text {

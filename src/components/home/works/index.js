@@ -1,5 +1,6 @@
 import React from "react";
 
+import ShadowHeading from "../../common/shadow-heading";
 import PictureFrame from "../../common/picture-frame";
 
 import pic1 from "../../../images/works-pic1.png";
@@ -12,7 +13,7 @@ import "./styles.scss";
 const Works = () => {
   return (
     <div className="works--main-container">
-      <header className="golden-heading">works</header>
+      <ShadowHeading text="works" />
       <div className="works--pictures">
         <PictureFrame pic={pic1} tag="Smart Drone - SYMA" />
         <PictureFrame pic={pic2} tag="Smart Drone - SYMA" />

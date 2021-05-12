@@ -1,5 +1,7 @@
 import React from "react";
 
+import ShadowHeading from "../../common/shadow-heading";
+
 import "./styles.scss";
 
 const Services = () => {
@@ -8,17 +10,10 @@ const Services = () => {
       <div className="services--details-container">
         <div className="services--details">
           <div className="services--header">
-            <header
-              className="golden-heading"
-              style={{
-                maxWidth: "199px",
-                fontSize: "40px",
-                lineHeight: "48px",
-              }}
-            >
-              our services
-            </header>
-            <button className="button">TECH DOMAINS</button>
+            <ShadowHeading text="our services" />
+            <button style={{ marginTop: "30px" }} className="button">
+              TECH DOMAINS
+            </button>
           </div>
           <div className="services--text">
             <div className="golden-heading">IT Consulting</div>

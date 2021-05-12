@@ -11,7 +11,7 @@ import Blog from "./components/blog";
 import FullBlog from "./components/blog/full-blog";
 import AboutUs from "./components/about-us";
 import ContactUs from "./components/contact-us";
-import BlockChain from "./components/blockchain";
+import BlockChain from "./components/blockchain-concept";
 
 import "./styles/globals.scss";
 

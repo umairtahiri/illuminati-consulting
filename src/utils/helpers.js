@@ -174,7 +174,9 @@ export const servicesInFocusList = [
 
 export const checkIfScreenIsBlack = (location) => {
   const { pathname } = location;
-  const isBlack = ["home", "contact"].some((p) => pathname.includes(p));
+  const isBlack = ["home", "contact", "/services/blockchain"].some((p) =>
+    pathname.includes(p)
+  );
   console.log({ isBlack });
   return isBlack;
 };
