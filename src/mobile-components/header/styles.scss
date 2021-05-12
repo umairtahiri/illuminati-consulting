@@ -1,0 +1,19 @@
+.header--main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 10%;
+
+  .header--button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+
+    .menu-btn {
+      cursor: pointer;
+    }
+  }
+}

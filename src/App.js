@@ -1,49 +1,28 @@
-import React, { useEffect } from "react";
-import { Route, Switch, useHistory, useLocation } from "react-router-dom";
+import React, { useLayoutEffect, useState } from "react";
 
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Menu from "./components/menu";
-import Home from "./components/home";
-import OurWorks from "./components/our-works";
-import OurWorksInternal from "./components/our-works/our-works-internal";
-import Blog from "./components/blog";
-import FullBlog from "./components/blog/full-blog";
-import AboutUs from "./components/about-us";
-import ContactUs from "./components/contact-us";
-import BlockChain from "./components/blockchain-concept";
+import DeskTopApp from "./components/app";
+import MobileApp from "./mobile-components/app";
 
 import "./styles/globals.scss";
 
 const App = () => {
-  const history = useHistory();
-  const location = useLocation();
+  const useWindowSize = () => {
+    const [size, setSize] = useState([0]);
 
-  useEffect(() => {
-    history && history.push(`/home/connected-device`);
-  }, []);
+    useLayoutEffect(() => {
+      const updateSize = () => {
+        setSize([window.innerWidth]);
+      };
+      window.addEventListener("resize", updateSize);
+      updateSize();
+      return () => window.removeEventListener("resize", updateSize);
+    }, []);
+    return size;
+  };
 
-  return (
-    <div className="app">
-      <Header />
-      <Switch>
-        <Route exact path="/menu" component={Menu} />
-        <Route exact path="/home/:type" component={Home} />
-        <Route exact path="/our-works/:work" component={OurWorks} />
-        <Route
-          exact
-          path="/our-works/:work/details"
-          component={OurWorksInternal}
-        />
-        <Route exact path="/blog" component={Blog} />
-        <Route exact path="/blog/:blogTitle" component={FullBlog} />
-        <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/contact-us" component={ContactUs} />
-        <Route exact path="/services/blockchain" component={BlockChain} />
-      </Switch>
-      {!location.pathname.includes("menu") && <Footer />}
-    </div>
-  );
+  const [width] = useWindowSize();
+
+  return width > 500 ? <DeskTopApp /> : <MobileApp />;
 };
 
 export default App;

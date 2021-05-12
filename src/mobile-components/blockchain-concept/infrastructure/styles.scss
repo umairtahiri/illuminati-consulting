@@ -1,0 +1,65 @@
+.infrastructure--main-container {
+  padding: 10%;
+
+  .infrastructure-banner-container {
+    background: #212121;
+    position: relative;
+    overflow: hidden;
+
+    .infrastructure-banner {
+      padding: 10% 0 3% 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("../../../images//bitcoin-1.png");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: 25%;
+
+      .infrastructure-text-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0px 25%;
+        z-index: 999;
+
+        .golden-heading {
+          text-align: center;
+          margin-top: 8%;
+          font-size: 25px;
+          margin-bottom: 25%;
+        }
+
+        .detail {
+          padding: 0 10%;
+          bottom: 0;
+          margin-top: 15px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+          color: #989898;
+        }
+      }
+    }
+
+    .golden-swirls {
+      position: absolute;
+      left: -44%;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .bitcoin {
+      position: absolute;
+      top: 10%;
+      left: 39%;
+      width: 25%;
+    }
+  }
+}

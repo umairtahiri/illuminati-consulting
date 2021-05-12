@@ -1,0 +1,61 @@
+.footer--main-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 5% 10%;
+
+  .footer--text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .footer--link {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000000;
+    width: fit-content;
+  }
+
+  .golden-heading {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .footer-input-wrapper {
+    border-bottom: 2px solid #86868b;
+    display: flex;
+    padding: 30px 0 10px 0;
+    justify-content: space-between;
+
+    .footer--input {
+      border: hidden;
+      padding: 0;
+      outline: none;
+      font-size: 18px;
+      color: #989898;
+
+      ::placeholder {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400px;
+        color: #989898;
+      }
+    }
+
+    .footer--input-arrow {
+      cursor: pointer;
+      width: 20px;
+    }
+  }
+}

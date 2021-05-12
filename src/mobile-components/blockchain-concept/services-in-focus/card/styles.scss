@@ -1,0 +1,35 @@
+.services-in-focus--card {
+  width: 350px;
+  margin: 10px;
+  background: #fdfdfd;
+
+  > header {
+    background: #dba360;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .detail-container {
+    padding: 40px 43px;
+    background-image: url("../../../../images/b-waves-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+
+    .service-detail {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #989898;
+    }
+  }
+}

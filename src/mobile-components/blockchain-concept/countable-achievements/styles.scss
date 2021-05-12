@@ -1,0 +1,128 @@
+.achievements-main-container {
+  .achievements-banner-container {
+    background: #212121;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    padding: 6%;
+
+    .achivement-page-title {
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 36px;
+      text-transform: uppercase;
+    }
+
+    .achievemnets-details-container {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 7% 0%;
+
+      .achievements-details {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding-top: 5%;
+        height: 190px;
+
+        .number {
+          font-weight: bold;
+          font-size: 50px;
+          line-height: 63px;
+          text-transform: uppercase;
+        }
+
+        .text {
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .waves-top-right {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .waves-bottom-left {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+  }
+
+  .achievemnets-cards-container {
+    display: flex;
+
+    .golden-card {
+      background: #dba360;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 12% 6%;
+      justify-content: center;
+
+      .golden-card-title {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: #ffffff;
+      }
+
+      .golden-card-description {
+        font-size: 18px;
+        line-height: 21px;
+        color: #ffffff;
+      }
+    }
+
+    .white-card {
+      width: 50%;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 12% 6%;
+      flex-direction: column;
+
+      .white-card-title {
+        font-size: 25px;
+        line-height: 36px;
+        text-transform: uppercase;
+      }
+
+      .white-card-list-container {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #989898;
+        display: flex;
+        justify-content: space-between;
+
+        .list-container {
+          margin: 20px 50px;
+
+          .list-style {
+            padding-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}

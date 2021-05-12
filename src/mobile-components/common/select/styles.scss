@@ -1,0 +1,50 @@
+.ant-select {
+  width: 100%;
+  flex: 1;
+  margin-top: 5px !important;
+
+  .ant-select-selector {
+    width: 100%;
+    border: none !important;
+    background: transparent !important;
+    color: #989898;
+    font-size: 16px;
+    border-bottom: 1px solid #86868b !important;
+    height: 40px;
+    cursor: pointer;
+    padding-left: 0 !important;
+    border-radius: 0px !important;
+  }
+
+  .ant-select-focused {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.ant-select-dropdown {
+  padding: 0 !important;
+  width: auto !important;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  color: #989898 !important;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+
+.ant-select-item {
+  color: #989898 !important;
+  font-weight: 600;
+  background-color: #000 !important;
+  cursor: pointer;
+
+  &:hover {
+    background: #bbb !important;
+    color: #212121 !important;
+  }
+}
+
+.ant-select-arrow {
+  top: 30% !important;
+}

@@ -1,0 +1,26 @@
+.works--main-container {
+  padding: 10%;
+
+  .works--pictures {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 0 15rem 0;
+    flex-wrap: wrap;
+
+    .picture-frame {
+      flex: 1;
+      margin: 0;
+    }
+  }
+
+  .social-media-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .golden-heading {
+    .shadow-heading {
+      color: rgba(229, 229, 229, 0.3);
+    }
+  }
+}

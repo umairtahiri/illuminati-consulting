@@ -1,0 +1,128 @@
+.internal-works--main-container {
+  padding: 10%;
+
+  .internal-works--header {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    .golden-heading {
+      font-size: 24px;
+      text-transform: uppercase;
+      text-decoration-line: underline;
+      font-weight: normal;
+    }
+
+    .internal-works-back-arrow {
+      transform: rotate(180deg);
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  }
+
+  .banner-picture-frame {
+    position: relative;
+    min-width: 400px;
+
+    .picture-frame-img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    .pictrure-frame-tag {
+      position: absolute;
+      width: 300px;
+      height: 55px;
+      background: #dba360;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 5px 15px 15px 15px;
+      bottom: -25px;
+      right: 0;
+      cursor: pointer;
+    }
+  }
+
+  .internal-works--details {
+    display: flex;
+    justify-content: space-between;
+
+    .internal--works--column1 {
+      box-sizing: border-box;
+      padding-top: 40px;
+      width: 50%;
+      background: black;
+
+      .inernal--works-text1 {
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        padding: 2px 40px;
+
+        .golden-heading {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+
+        .description {
+          font-size: 16px;
+          line-height: 21px;
+          color: #989898;
+        }
+
+        .internal--works-logo-container {
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .logo-style {
+            width: 80px;
+            height: 30px;
+            object-fit: contain;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .internal--works-details2 {
+    box-sizing: border-box;
+    padding-top: 7%;
+
+    .inernal--works-text2 {
+      margin-bottom: 5%;
+
+      .golden-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .sub-heading {
+        font-size: 20px !important;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        font-size: 18px;
+        line-height: 25px;
+        color: #989898;
+      }
+    }
+
+    .inernal--works-pictures {
+      margin-top: 40px;
+      margin-bottom: 0px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
