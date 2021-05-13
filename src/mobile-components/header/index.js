@@ -20,7 +20,7 @@ const Header = () => {
       className="header--main-container"
       style={{ background: isBlack ? "#000" : "#fff" }}
     >
-      <img src={logo} alt="logo" />
+      <img className="header-logo" src={logo} alt="logo" />
 
       <button className="button">GET IN TOUCH</button>
       {location.pathname.includes("menu") ? (

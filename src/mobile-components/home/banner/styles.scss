@@ -10,15 +10,10 @@
     align-items: center;
     justify-content: center;
 
-    .golden-heading {
-      font-size: 50px;
-      padding: 0 10%;
-    }
-
     .home--description {
       font-weight: normal;
-      font-size: 17px;
-      line-height: 24px;
+      font-size: 16px;
+      line-height: 19px;
       max-width: 629px;
       color: #989898;
       text-align: center;
@@ -26,8 +21,8 @@
     }
 
     .home--button {
-      width: 160px;
-      height: 50px;
+      width: 140px;
+      height: 40px;
       border: 1.5px solid #dba360;
       box-sizing: border-box;
       border-radius: 50px;
@@ -35,8 +30,8 @@
       background-color: #dba360;
       cursor: pointer;
       font-weight: bold;
-      font-size: 14px;
-      line-height: 17px;
+      font-size: 12px;
+      line-height: 14px;
       color: white;
       margin-top: 20px;
       margin-bottom: 25px;
@@ -59,6 +54,7 @@
         top: 0;
         height: 100%;
         width: 100px;
+
         background-image: linear-gradient(
           to right,
           rgba(97, 97, 97, 0.1),
@@ -112,6 +108,17 @@
       height: 10px;
       border-radius: 50%;
       cursor: pointer;
+    }
+  }
+  .golden-heading {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    .shadow-heading {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      padding-top: 30px;
     }
   }
 }

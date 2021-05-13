@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import car from "../../../images/car.png";
+import mobileWorksCar from "../../../images/mobileWorksCar.png";
 
 import PictureFrame from "../../common/picture-frame";
 
@@ -13,13 +13,14 @@ import arrow from "../../../images/right-arrow.svg";
 import ourworkspic7 from "../../../images/works-pic7.png";
 import ourworkspic8 from "../../../images/works-pic8.png";
 import ourworkspic9 from "../../../images/works-pic9.png";
+import Carousel from "../../carousel";
 
 import "./styles.scss";
 
 const OurWorksInternal = () => {
   const history = useHistory();
   return (
-    <div className="internal-works--main-container">
+    <div className="mobile-internal-works--main-container">
       <section
         className="internal-works--header"
         onClick={() => history.goBack()}
@@ -28,13 +29,13 @@ const OurWorksInternal = () => {
         <header className="golden-heading">back</header>
       </section>
       <section className="banner-picture-frame">
-        <img className="picture-frame-img" src={car} alt="pic" />
+        <img className="picture-frame-img" src={mobileWorksCar} alt="pic" />
         <div className="pictrure-frame-tag">Smart Drone - SYMA</div>
       </section>
-      <section className="internal-works--details">
-        <div className="internal--works--column1">
+      <section className="mobile-internal-works--details">
+        <div className="mobile-internal--works--column1">
           <div className="inernal--works-text1">
-            <div className="golden-heading">
+            <div className="golden-heading header">
               Web & Mobile IoT Solution for BMW Dealer Showroom Services
             </div>
             <div className="description">
@@ -43,28 +44,6 @@ const OurWorksInternal = () => {
               car owners, and BMW employees
             </div>
           </div>
-          <div className="inernal--works-text1">
-            <div className="golden-heading">Solutions</div>
-            <div className="description">
-              We developed an end-to-end IoT solution powered by iBeacon
-              technology and data analytics. To let managers have complete
-              control over customer experience, our design team came up with an
-              intuitive dashboard with all information neatly organized into one
-              view.
-            </div>
-          </div>
-          <div className="inernal--works-text1">
-            <div className="golden-heading">Technologies used:</div>
-            <div className="internal--works-logo-container">
-              <img className="logo-style" src={angular} alt="angular" />
-              <img className="logo-style" src={xavier} alt="xavier" />
-              <img className="logo-style" src={bluetooth} alt="bluetooth" />
-              <img className="logo-style" src={nodejs} alt="nodejs" />
-              <img className="logo-style" src={flower} alt="flower" />
-            </div>
-          </div>
-        </div>
-        <div className="internal--works--column1">
           <div className="inernal--works-text1">
             <div className="golden-heading">Project Goals</div>
             <div className="description">
@@ -95,11 +74,86 @@ const OurWorksInternal = () => {
               </ul>
             </div>
           </div>
+          <div className="inernal--works-text1">
+            <div className="golden-heading">Solutions</div>
+            <div className="description">
+              We developed an end-to-end IoT solution powered by iBeacon
+              technology and data analytics. To let managers have complete
+              control over customer experience, our design team came up with an
+              intuitive dashboard with all information neatly organized into one
+              view.
+            </div>
+          </div>
+          <div className="inernal--works-text1">
+            <div className="golden-heading technologies">
+              Technologies used:
+            </div>
+            <div className="internal--works-logo-container">
+              <div className="techonolgies-log-container">
+                <img className="logo-style" src={angular} alt="angular" />
+                <img className="logo-style" src={xavier} alt="xavier" />
+              </div>
+              <div className="techonolgies-log-container">
+                <img className="logo-style" src={bluetooth} alt="bluetooth" />
+                <img className="logo-style" src={nodejs} alt="nodejs" />
+              </div>
+              <div className="techonolgies-log-container">
+                <img className="logo-style" src={flower} alt="flower" />
+              </div>
+            </div>
+          </div>
+          <div className="inernal--works-text1">
+            <div className="golden-heading header">
+              Web App for Showroom Managers
+            </div>
+            <div className="description">
+              The web app allows showroom employees to access attendance
+              statistics, generate & analyze heat maps, thereby tracking
+              customer interest for all car models. The app also enables
+              managers to work individually with each client (car owner), view
+              their visit history and respond to requests & messages.
+            </div>
+          </div>
+          <div className="inernal--works-text1">
+            <div className="golden-heading header">
+              Mobile App for Clients & Employees
+            </div>
+            <div className="golden-heading ">
+              The functionality of the mobile app provides:
+            </div>
+            <div className="description">
+              <ul>
+                <li>
+                  Navigation and assistance around the showroom to customers
+                  interested in buying a vehicle;
+                </li>
+                <li>
+                  Support throughout the entire period of vehicle ownership for
+                  previous buyers.
+                </li>
+                <div className="mobile-desc">
+                  With the help of iBeacons technology, the app displays all the
+                  details on the car model closest to the customer, freeing them
+                  from manually searching the general catalog. Visitors can also
+                  request help from showroom employees who know their exact
+                  location.
+                </div>
+                <div className="mobile-desc">
+                  Car owners use the app to easily sign up for maintenance or
+                  get personal online consultation. It also displays the
+                  customer’s service history, sends out notifications, reminders
+                  and special offers.
+                </div>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section className="internal--works-details2">
         <div className="inernal--works-text2">
-          <div className="golden-heading">Web App for Showroom Managers</div>
+          <div className="golden-heading header">
+            Web App for Showroom Managers
+          </div>
           <div className="description">
             The web app allows showroom employees to access attendance
             statistics, generate & analyze heat maps, thereby tracking customer
@@ -125,26 +179,27 @@ const OurWorksInternal = () => {
                 Support throughout the entire period of vehicle ownership for
                 previous buyers.
               </li>
-              <li>
-                With the help of iBeacons technology, the app displays all the
-                details on the car model closest to the customer, freeing them
-                from manually searching the general catalog. Visitors can also
-                request help from showroom employees who know their exact
-                location. .
-              </li>
-              <li>
-                Car owners use the app to easily sign up for maintenance or get
-                personal online consultation. It also displays the customer’s
-                service history, sends out notifications, reminders and special
-                offers
-              </li>
             </ul>
+          </div>
+          <div className="description mobile-desc">
+            With the help of iBeacons technology, the app displays all the
+            details on the car model closest to the customer, freeing them from
+            manually searching the general catalog. Visitors can also request
+            help from showroom employees who know their exact location.
+          </div>
+          <div className="description mobile-desc">
+            Car owners use the app to easily sign up for maintenance or get
+            personal online consultation. It also displays the customer’s
+            service history, sends out notifications, reminders and special
+            offers
           </div>
         </div>
         <div className="inernal--works-pictures">
-          <PictureFrame pic={ourworkspic7} tag="Smart Drone - SYMA" />
-          <PictureFrame pic={ourworkspic8} tag="Smart Drone - SYMA" />
-          <PictureFrame pic={ourworkspic9} tag="Smart Drone - SYMA" />
+          <Carousel>
+            <PictureFrame pic={ourworkspic7} tag="Smart Drone - SYMA" />
+            <PictureFrame pic={ourworkspic8} tag="Smart Drone - SYMA" />
+            <PictureFrame pic={ourworkspic9} tag="Smart Drone - SYMA" />
+          </Carousel>
         </div>
       </section>
     </div>

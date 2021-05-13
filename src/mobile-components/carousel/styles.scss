@@ -10,7 +10,9 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 40% 10% 40%;
+    max-width: 100px;
+    padding: 0 0 10% 0;
+
     .slide-btn-left {
       width: 25px;
       transform: rotate(180deg);
@@ -33,6 +35,10 @@
         }
       }
     }
+  }
+
+  .dTGAUq {
+    margin: 0px;
   }
 }
 

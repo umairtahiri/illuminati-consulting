@@ -1,5 +1,9 @@
 .our-works--main-container {
   padding: 0 10% 8% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   .our-works--links-container {
     align-items: flex-start;
@@ -38,8 +42,7 @@
 
   .our-works--pictures-frame-container {
     display: flex;
-    justify-content: space-between;
-    margin: 75px 0 0px 0;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -14,7 +14,6 @@
 
     .picture-frame {
       flex: 1;
-      margin: 0;
     }
   }
 
@@ -25,8 +24,16 @@
   }
 
   .golden-heading {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+
     .shadow-heading {
       color: rgba(229, 229, 229, 0.3);
+      padding-top: 33px;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
     }
   }
 }

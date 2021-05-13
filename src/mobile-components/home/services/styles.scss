@@ -14,7 +14,9 @@
     flex-direction: column;
 
     .golden-heading {
-      font-size: 50px;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 36px;
       display: flex;
       text-align: center;
       padding: 0 10%;
@@ -27,15 +29,30 @@
     box-sizing: border-box;
 
     .golden-heading {
+      font-weight: bold;
       font-size: 18px;
+      line-height: 21px;
       margin-bottom: 20px;
     }
 
     .services--text-lists {
-      font-size: 15px;
-      line-height: 25px;
+      font-size: 16px;
+      line-height: 19px;
       color: #989898;
       padding-left: 25px;
+    }
+  }
+
+  .golden-heading {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+
+    .shadow-heading {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      padding-top: 30px;
     }
   }
 }

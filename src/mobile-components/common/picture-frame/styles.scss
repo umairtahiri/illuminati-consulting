@@ -1,7 +1,7 @@
 .picture-frame {
   position: relative;
   max-width: 33%;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   min-width: 400px;
 
   .picture-frame-img {
@@ -13,16 +13,16 @@
 
   .pictrure-frame-tag {
     position: absolute;
-    width: 300px;
-    height: 55px;
+    width: 241px;
+    height: 59px;
     background: #dba360;
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 5px 15px 15px 15px;
+    padding: 20px 15px 15px 20px;
     bottom: -25px;
     right: 0;
     cursor: pointer;

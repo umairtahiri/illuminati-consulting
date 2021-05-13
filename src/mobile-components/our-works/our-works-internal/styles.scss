@@ -1,4 +1,4 @@
-.internal-works--main-container {
+.mobile-internal-works--main-container {
   padding: 10%;
 
   .internal-works--header {
@@ -24,7 +24,6 @@
 
   .banner-picture-frame {
     position: relative;
-    min-width: 400px;
 
     .picture-frame-img {
       height: 100%;
@@ -35,30 +34,32 @@
 
     .pictrure-frame-tag {
       position: absolute;
-      width: 300px;
-      height: 55px;
+      width: 241px;
+      height: 59px;
       background: #dba360;
       font-style: normal;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 24px;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 14px;
       text-transform: uppercase;
       color: #ffffff;
-      padding: 5px 15px 15px 15px;
-      bottom: -25px;
-      right: 0;
+      padding: 20px 15px 15px 20px;
+      bottom: -10px;
+      right: 5px;
       cursor: pointer;
     }
   }
 
-  .internal-works--details {
+  .mobile-internal-works--details {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-    .internal--works--column1 {
+    .mobile-internal--works--column1 {
       box-sizing: border-box;
+      width: 100%;
       padding-top: 40px;
-      width: 50%;
       background: black;
 
       .inernal--works-text1 {
@@ -67,27 +68,53 @@
         padding: 2px 40px;
 
         .golden-heading {
+          font-weight: 900;
           font-size: 18px;
+          line-height: 21px;
           margin-bottom: 20px;
+        }
+
+        .header {
+          font-weight: 900;
+          font-size: 25px;
+          line-height: 30px;
+        }
+
+        .technologies {
+          text-align: center;
+          width: 100%;
         }
 
         .description {
           font-size: 16px;
-          line-height: 21px;
+          line-height: 19px;
           color: #989898;
+        }
+
+        .mobile-desc {
+          margin: 10px 0 20px 0;
         }
 
         .internal--works-logo-container {
           box-sizing: border-box;
           display: flex;
           align-items: center;
-          justify-content: space-between;
+          justify-content: center;
+          flex-direction: column;
 
-          .logo-style {
-            width: 80px;
-            height: 30px;
-            object-fit: contain;
-            cursor: pointer;
+          .techonolgies-log-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 230px;
+            margin-bottom: 20px;
+
+            .logo-style {
+              width: 80px;
+              height: 30px;
+              object-fit: contain;
+              cursor: pointer;
+            }
           }
         }
       }
