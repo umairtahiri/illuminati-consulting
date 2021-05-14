@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.scss";
-import hyperledgerDivider from "../../../images/hyperledgerDivider.png";
+import mobilehypeledgerDivider from "../../../images/mobilehypeledgerDivider.png";
 
 const Hyperledger = () => {
   return (
-    <div className="hyperledger-main-container">
+    <div className="mobile-hyperledger-main-container">
       <div className="hyperledger-side1">
         <div className="hyperledger-title golden-heading">
           Shape up via Hyperledger blockchain infrastructure
@@ -17,8 +17,8 @@ const Hyperledger = () => {
           Hyperledger apps work their magic:
         </div>
       </div>
-      <div>
-        <img src={hyperledgerDivider} alt="hyperledgerDivider" />
+      <div className="mobile-hyperledger-divider">
+        <img src={mobilehypeledgerDivider} alt="mobilehypeledgerDivider" />
       </div>
       <div className="hyperledger-side2">
         <div className="hyperledger-list-text">

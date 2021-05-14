@@ -1,6 +1,7 @@
 import React from "react";
 
 import Card from "./card";
+import Carousel from "../../carousel";
 
 import { servicesInFocusList } from "../../../utils/helpers";
 
@@ -8,7 +9,7 @@ import "./styles.scss";
 
 const ServicesInFocus = () => {
   return (
-    <section className="services-in-focus--main-container">
+    <section className="mobile-services-in-focus--main-container">
       <header>
         <h1 className="golden-heading">Our services in focus</h1>
         <p className="details">
@@ -20,9 +21,11 @@ const ServicesInFocus = () => {
         </p>
       </header>
       <div className="cards-wrapper">
-        {servicesInFocusList.map((s) => (
-          <Card title={s.title} detail={s.detail} />
-        ))}
+        <Carousel>
+          {servicesInFocusList.map((s) => (
+            <Card title={s.title} detail={s.detail} />
+          ))}
+        </Carousel>
       </div>
     </section>
   );

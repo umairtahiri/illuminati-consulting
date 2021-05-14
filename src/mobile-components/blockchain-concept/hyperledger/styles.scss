@@ -1,38 +1,44 @@
-.hyperledger-main-container {
+.mobile-hyperledger-main-container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 0 10% 0;
+  justify-content: left;
+  flex-direction: column;
+  padding: 0 10% 10% 10%;
 
   .hyperledger-side1 {
-    width: 50%;
     box-sizing: border-box;
-    padding: 6%;
 
     .hyperledger-title {
       font-weight: 900;
-      font-size: 30px;
-      line-height: 36px;
-      text-align: right;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: left;
       margin-bottom: 30px;
     }
 
     .hyperledger-text1 {
-      font-size: 18px;
-      line-height: 21px;
-      text-align: right;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: left;
       color: #989898;
     }
   }
 
+  .mobile-hyperledger-divider {
+    margin: 20px 0;
+  }
+
   .hyperledger-side2 {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
-    padding: 6%;
+    padding-left: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     .hyperledger-list-text {
       box-sizing: border-box;
-      padding-right: 60%;
       color: #989898;
       font-weight: normal;
       font-size: 16px;

@@ -1,20 +1,22 @@
-.services-in-focus--main-container {
+.mobile-services-in-focus--main-container {
   padding: 5% 10%;
 
   > header {
     padding: 0 10%;
 
     .golden-heading {
-      font-size: 45px;
-      text-align: center;
+      font-weight: 900;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: left;
     }
 
     .details {
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
-      line-height: 21px;
-      text-align: center;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: left;
       color: #989898;
       margin-top: 40px;
       margin-bottom: 60px;
@@ -25,5 +27,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    .carousel-header {
+      position: relative;
+
+      .arrow-container {
+        position: absolute;
+        bottom: -10%;
+        z-index: 1;
+      }
+    }
   }
 }

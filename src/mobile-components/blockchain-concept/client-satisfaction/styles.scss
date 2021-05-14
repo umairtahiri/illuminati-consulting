@@ -1,18 +1,45 @@
-.client-satisfaction-main-container {
-  background: url("../../../images/clientBack1.png");
-  background-repeat: no-repeat;
+.mobile-client-satisfaction-main-container {
+  .mobile-satisfaction-img-container {
+    position: relative;
 
-  .overlay {
-    padding: 10% 0%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.75);
+    .mobile-satisfaction-img {
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
 
-    .client-satisfaction-img-container {
-      margin-top: 60px;
+    .overlay {
+      position: absolute;
+      top: 0px;
+      padding: 10% 10%;
+      width: 100%;
+      display: flex;
+      height: -webkit-fill-available;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: rgba(0, 0, 0, 0.75);
+
+      .client-satisfaction-title {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 30px;
+      }
+
+      .client-satisfaction-img-container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .clutch {
+          width: 74.48px;
+          height: 80px;
+          margin-bottom: 20px;
+        }
+      }
     }
   }
 }

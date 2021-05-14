@@ -1,13 +1,14 @@
 import React from "react";
 
-import techLogo1 from "../../../images/techLogo1.png";
-import techLogo2 from "../../../images/techLogo2.png";
+import mobileTechnologyLogo1 from "../../../images/mobileTechnologyLogo1.png";
+import mobileTechnologyLogo2 from "../../../images/mobileTechnologyLogo2.png";
+import mobileTechnologyLogo3 from "../../../images/mobileTechnologyLogo3.png";
 
 import "./styles.scss";
 
 const TechnologyPlatforms = () => {
   return (
-    <div className="tech-platforms-main-container">
+    <div className="mobile-tech-platforms-main-container">
       <div className="golden-heading tech-platforms-title">
         Blockchain Technology Platforms
       </div>
@@ -17,14 +18,31 @@ const TechnologyPlatforms = () => {
         abreast of blockchain novelties and security techniques, meaning our
         deliverables are future-proof, scalable, and uncompromisingly safe.
       </div>
-      <img src={techLogo1} alt="techLogo1" className="tech-platforms-logos" />
+      <div className="texhlogo-container1">
+        <img
+          src={mobileTechnologyLogo1}
+          alt="techLogo1"
+          className="tech-platforms-logos"
+        />
+        <img
+          src={mobileTechnologyLogo2}
+          alt="techLogo1"
+          className="tech-platforms-logos"
+        />
+      </div>
       <div
         className="golden-heading tech-platforms-title"
         style={{ marginTop: "100px" }}
       >
         Technology Stack
       </div>
-      <img src={techLogo2} alt="techLogo2" className="tech-platforms-logos" />
+      <div className="texhlogo-container1">
+        <img
+          src={mobileTechnologyLogo3}
+          alt="techLogo2"
+          className="tech-platforms-logos"
+        />
+      </div>
     </div>
   );
 };

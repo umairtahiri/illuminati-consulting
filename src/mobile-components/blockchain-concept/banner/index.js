@@ -1,10 +1,11 @@
 import React from "react";
+import globe from "../../../images/globe.png";
 
 import "./styles.scss";
 
 const Banner = () => {
   return (
-    <section className="blockchain-banner--main-container">
+    <section className="mobile-blockchain-banner--main-container">
       <div className="bg-container">
         <h1 className="golden-heading">
           Full-Stack Blockchain<br></br> Development Services
@@ -20,6 +21,7 @@ const Banner = () => {
           control, saved man-hours, and rock-solid quality of goods and
           services.
         </p>
+        <img src={globe} className="img-container" alt="" />
       </div>
     </section>
   );

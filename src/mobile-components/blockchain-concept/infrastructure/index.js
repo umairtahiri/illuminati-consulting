@@ -1,11 +1,11 @@
 import React from "react";
-import goldenswirls from "../../../images/golden-swirls.png";
+import mobileBottomWave from "../../../images/mobileBottomWave.png";
 
 import "./styles.scss";
 
 const Infrastructure = () => {
   return (
-    <div className="infrastructure--main-container">
+    <div className="mobile-infrastructure--main-container">
       <div className="infrastructure-banner-container">
         <section className="infrastructure-banner">
           <div className="infrastructure-text-container">
@@ -20,7 +20,11 @@ const Infrastructure = () => {
             </p>
           </div>
         </section>
-        <img className="golden-swirls" src={goldenswirls} alt="goldenSwirls" />
+        <img
+          className="mobile-bottom-wave"
+          src={mobileBottomWave}
+          alt="mobileBottomWave"
+        />
       </div>
     </div>
   );

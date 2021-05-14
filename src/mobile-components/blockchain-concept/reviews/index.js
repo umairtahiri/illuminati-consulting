@@ -4,16 +4,20 @@ import goldenStar from "../../../images/goldenStar.png";
 import whiteStar from "../../../images/whiteStar.png";
 import leftWhiteArrow from "../../../images/leftWhiteArrow.png";
 import rightWhiteArrow from "../../../images/rightWhiteArrow.png";
-import waves from "../../../images/waves.png";
+import mobileReviewFrame from "../../../images/mobileReviewFrame.png";
 import clientPic from "../../../images/clientPic.png";
 import "./styles.scss";
 
 const Reviews = () => {
   return (
-    <div className="reviews-main-container">
+    <div className="mobile-reviews-main-container">
       <div className="review-client-details">
         <div className="overlay">
-          <img className="waves" alt="waves" src={waves} />
+          <img
+            className="mobileReviewFrame"
+            alt="mobileReviewFrame"
+            src={mobileReviewFrame}
+          />
           <div className="client-details-container">
             <div className="golden-heading client-name">Morgan Rosenblum</div>
             <div className="client-designation">CEO. Darkrose Studio</div>

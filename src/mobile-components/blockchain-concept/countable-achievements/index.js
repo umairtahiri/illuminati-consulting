@@ -2,65 +2,69 @@ import React from "react";
 import "./styles.scss";
 import divider from "../../../images/divider.png";
 import wavesTopRight from "../../../images/wavesTopRight.png";
-import wavesBottomLeft from "../../../images/wavesBottomLeft.png";
+import mobileBlockchainHorizontalLine from "../../../images/mobileBlockchainHorizontalLine.png";
 
 const Achievements = () => {
   return (
-    <div className="achievements-main-container">
+    <div className="mobile-achievements-main-container">
       <div className="achievements-banner-container">
         <div className="golden-heading achivement-page-title">
           countable blockchain achievements
         </div>
         <div className="achievemnets-details-container">
-          <div className="achievements-details">
-            <div className="golden-heading number">13</div>
-            <div className="golden-heading text">
-              Years of handling clients’ challenges
+          <div className="column1">
+            <div className="achievements-details">
+              <div className="golden-heading number">13</div>
+              <div className="golden-heading text">
+                Years of handling clients’ challenges
+              </div>
+            </div>
+
+            <div className="achievements-details">
+              <div className="golden-heading number">5</div>
+              <div className="golden-heading text">
+                sto projects successfully launched
+              </div>
+            </div>
+
+            <div className="achievements-details">
+              <div className="golden-heading number">50</div>
+              <div className="golden-heading text">blockchain projects</div>
             </div>
           </div>
-          <img src={divider} alt="divider" />
-          <div className="achievements-details">
-            <div className="golden-heading number">5</div>
-            <div className="golden-heading text">
-              sto projects successfully launched
+          <img src={divider} alt="divider" className="vertical-divider" />
+          <div className="column1">
+            <div className="achievements-details">
+              <div className="golden-heading number">$500m+</div>
+              <div className="golden-heading text">
+                raised via our blockchain slution
+              </div>
             </div>
-          </div>
-          <img src={divider} alt="divider" />
-          <div className="achievements-details">
-            <div className="golden-heading number">50</div>
-            <div className="golden-heading text">blockchain projects</div>
-          </div>
-          <img src={divider} alt="divider" />
-          <div className="achievements-details">
-            <div className="golden-heading number">$500m+</div>
-            <div className="golden-heading text">
-              raised via our blockchain slution
+
+            <div className="achievements-details">
+              <div className="golden-heading number">20+</div>
+              <div className="golden-heading text">
+                institutional-grade project
+              </div>
             </div>
-          </div>
-          <img src={divider} alt="divider" />
-          <div className="achievements-details">
-            <div className="golden-heading number">20+</div>
-            <div className="golden-heading text">
-              institutional-grade project
-            </div>
-          </div>
-          <img src={divider} alt="divider" />
-          <div className="achievements-details">
-            <div className="golden-heading number">7</div>
-            <div className="golden-heading text">
-              years of exprience in blockchain development
+
+            <div className="achievements-details">
+              <div className="golden-heading number">7</div>
+              <div className="golden-heading text">
+                years of exprience in blockchain development
+              </div>
             </div>
           </div>
         </div>
         <img
-          className="waves-top-right"
-          alt="wavesTopRight"
-          src={wavesTopRight}
+          src={mobileBlockchainHorizontalLine}
+          alt=""
+          className="upper-divider"
         />
         <img
-          className="waves-bottom-left"
-          alt="wavesBottomLeft"
-          src={wavesBottomLeft}
+          src={mobileBlockchainHorizontalLine}
+          alt=""
+          className="lower-divider"
         />
       </div>
       <div className="achievemnets-cards-container">
