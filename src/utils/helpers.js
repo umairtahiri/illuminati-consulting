@@ -96,6 +96,29 @@ export const BlogContent = [
   },
 ];
 
+export const MobileBlogContent = [
+  {
+    label: "Why do we use it?",
+    date: "March 23, 2021",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+  {
+    label: "Why do we use it?",
+    date: "March 23, 2021",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+  {
+    label: "Why do we use it?",
+    date: "March 23, 2021",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+  {
+    label: "Why do we use it?",
+    date: "March 23, 2021",
+    desc: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+];
+
 export const teamMembers = [
   {
     img: member1,

@@ -1,5 +1,9 @@
 .blog-main-container {
   padding: 0% 10% 10% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
   .blog--links-banner-container {
     display: flex;
@@ -7,11 +11,10 @@
     justify-content: space-between;
 
     .blog--links-container {
-      align-items: flex-start;
+      align-items: center;
       box-sizing: border-box;
       padding-top: 5px;
-      min-width: 308px;
-      margin-right: 40px;
+      margin-right: 0px;
 
       .link-container {
         display: flex;
@@ -31,35 +34,42 @@
           cursor: pointer;
           color: #bbbbbb;
           font-weight: bold;
-          font-size: 20px;
-          line-height: 40px;
-          text-decoration-line: underline;
+          font-size: 18px;
+          line-height: 31px;
+          text-decoration: none;
           text-transform: uppercase;
         }
 
         .selected-option {
           color: #dba360;
+          text-decoration: underline;
         }
       }
     }
-
+  }
+  .mobile-links-banner-container {
+    background: linear-gradient(0deg, #000000 30%, rgba(0, 0, 0, 0) 100%);
     .blog--links-banner {
       width: 100%;
-      justify-content: space-between;
+      justify-content: center;
       display: flex;
+      align-items: center;
+      padding: 0 20px;
+      flex-direction: column;
       background-repeat: no-repeat;
       background-size: contain;
-      background-color: #000;
-      background-image: url("../../images/blogbanner.png");
+      background-size: 400px;
+      background-position-x: 60%;
+      background-position-y: 20%;
+      background-image: url("../../images/mobileBlogBanner.png");
 
       .blog-banner-dots-container {
         display: flex;
-        flex-direction: column;
+        width: 100%;
         justify-content: space-between;
-        height: 100%;
+        max-width: 100px;
         box-sizing: border-box;
-        padding: 13% 0%;
-        margin-right: 2%;
+        margin: 20px 0;
 
         .dot {
           width: 10px;
@@ -72,24 +82,25 @@
       }
 
       .blog--links-banner-text {
-        padding: 0px 130px 30px 30px;
         box-sizing: border-box;
-        background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        margin-top: 150px;
+        background: linear-gradient(0deg, #000000 30%, rgba(0, 0, 0, 0) 100%);
         display: flex;
         align-items: flex-end;
 
         .blog-banner-text {
-          margin-top: 21%;
           box-sizing: border-box;
 
           .golden-heading {
-            font-size: 16px;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 24px;
             margin-bottom: 15px;
           }
 
           .blog-banner-description {
             font-weight: normal;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 19px;
             color: #ffffff;
           }
@@ -103,7 +114,7 @@
     padding-top: 75px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     .bloglink--main-container {
       max-width: 290px;
@@ -116,7 +127,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 400px 0px 400px;
+    padding: 50px 10% 0px 10%;
     font-size: 18px;
     line-height: 21px;
     color: #989898;

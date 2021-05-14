@@ -1,10 +1,10 @@
 import React from "react";
-import blogbanner from "../../../images/blogbanner.png";
+import mobileBlogBanner from "../../../images/mobileBlogBanner.png";
 import twitter from "../../../images/twitter.svg";
 import link from "../../../images/link.svg";
 import facebook from "../../../images/facebook.svg";
 import instagram from "../../../images/instagram.svg";
-import blogbitcoin from "../../../images/blogbitcoin.png";
+import mobileBlogBitcoin from "../../../images/mobileBlogBitcoin.png";
 import BlogLink from "../../common/blog-link";
 import blog from "../../../images/blog.png";
 import calender from "../../../images/calender.svg";
@@ -17,8 +17,8 @@ const BlogPage = () => {
   };
   return (
     <div className="blog-page-main-container">
-      <img className="blogbanner" alt="banner" src={blogbanner} />
-      <div className="blog-page-calender-links">
+      <img className="blogbanner" alt="banner" src={mobileBlogBanner} />
+      <div className="mobile-blog-page-calender-links">
         <div className="blog-page-calender-container">
           <img alt="calender" style={{ cursor: "pointer" }} src={calender} />
           <div className="date">January 18, 2021 </div>
@@ -72,7 +72,7 @@ const BlogPage = () => {
         solutions -- with all exchanges involved needing to come to terms on
         mutual implementation in order for them to be effective.
       </div>
-      <img className="blogbanner" alt="banner" src={blogbitcoin} />
+      <img className="blogbanner" alt="banner" src={mobileBlogBitcoin} />
       <div className="blog-page-text-container">
         <div className="blog-page-text">
           Adobe Flash has been slowly pushed to the edge of the cliff for the
@@ -111,12 +111,6 @@ const BlogPage = () => {
         </div>
       </div>
       <div className="blog-page-cards">
-        <BlogLink
-          pic={blog}
-          label="Why do we use it?"
-          date="March 23, 2021"
-          desc="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-        />
         <BlogLink
           pic={blog}
           label="Why do we use it?"

@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-import { ourWorksOptions, BlogContent } from "../../utils/helpers";
+import { ourWorksOptions, MobileBlogContent } from "../../utils/helpers";
 
 import arrow from "../../images/right-arrow.svg";
 
@@ -47,7 +47,8 @@ const Blog = () => {
             );
           })}
         </div>
-
+      </section>
+      <section className="mobile-links-banner-container">
         <div className="blog--links-banner">
           <div className="blog--links-banner-text">
             <div className="blog-banner-text">
@@ -56,11 +57,7 @@ const Blog = () => {
                 Requirements
               </div>
               <div className="blog-banner-description">
-                In September, we touched on probably one of the biggest
-                developments in the crypto community to date – the FATF’s
-                implementation of the new “travel rules” (new requirements for
-                the provisioning of personal identifiable information (PII)
-                regarding users involved ...
+                In September, we touched on probably one of the biggest...
               </div>
             </div>
           </div>
@@ -87,7 +84,7 @@ const Blog = () => {
         </div>
       </section>
       <section className="bloglink--container">
-        {BlogContent.map((e) => {
+        {MobileBlogContent.map((e) => {
           return (
             <BlogLink
               onclick={openBlog}

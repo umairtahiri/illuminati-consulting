@@ -1,14 +1,14 @@
 .picture-frame {
-  position: relative;
   max-width: 33%;
   margin-bottom: 5rem;
-  min-width: 400px;
+  min-width: 300px;
 
   .picture-frame-img {
     height: 100%;
     width: 100%;
     object-fit: contain;
     cursor: pointer;
+    position: relative;
   }
 
   .pictrure-frame-tag {

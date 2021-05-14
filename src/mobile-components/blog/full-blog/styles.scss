@@ -7,15 +7,18 @@
     height: 100%;
   }
 
-  .blog-page-calender-links {
-    display: flex;
+  .mobile-blog-page-calender-links {
     width: 100%;
-    justify-content: space-between;
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
 
     .blog-page-calender-container {
       display: flex;
       align-items: center;
-      justify-content: center;
+      width: 100%;
+      margin-top: 20px;
 
       .date {
         font-weight: normal;
@@ -46,15 +49,17 @@
   }
 
   .blog-page-heading {
-    font-size: 22px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
     box-sizing: border-box;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 30px;
   }
 
   .blog-page-text {
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 19px;
     color: #989898;
     box-sizing: border-box;
     padding-bottom: 30px;
@@ -78,6 +83,6 @@
     box-sizing: border-box;
     padding: 80px 0px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
