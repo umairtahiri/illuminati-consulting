@@ -11,10 +11,10 @@ const Blog = () => {
     <div className="mobile-home-blog-container">
       <ShadowHeading text="Blog" />
 
-      <Carousel>
+      <Carousel position="up">
         <div className="single-blog">
           <img src={blog} className="blog-thumbail" alt="blog" />
-          <div className="golden-heading">Why do we use it?</div>
+          <div className="mobile-golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
@@ -22,7 +22,7 @@ const Blog = () => {
         </div>
         <div className="single-blog">
           <img src={blog} className="blog-thumbail" alt="blog" />
-          <div className="golden-heading">Why do we use it?</div>
+          <div className="mobile-golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
@@ -30,7 +30,7 @@ const Blog = () => {
         </div>
         <div className="single-blog">
           <img src={blog} className="blog-thumbail" alt="blog" />
-          <div className="golden-heading">Why do we use it?</div>
+          <div className="mobile-golden-heading">Why do we use it?</div>
           <div className="description">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.

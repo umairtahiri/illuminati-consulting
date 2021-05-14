@@ -15,7 +15,7 @@
       object-fit: contain;
     }
 
-    .golden-heading {
+    .mobile-golden-heading {
       font-weight: 900;
       font-size: 18px;
       line-height: 21px;
@@ -30,20 +30,6 @@
       line-height: 19px;
       color: #989898;
       padding: 0 10px;
-    }
-  }
-
-  .golden-heading {
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 36px;
-
-    .shadow-heading {
-      color: rgba(229, 229, 229, 0.3);
-      padding-top: 33px;
-      font-weight: 900;
-      font-size: 40px;
-      line-height: 48px;
     }
   }
 }

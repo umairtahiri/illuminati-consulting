@@ -7,13 +7,15 @@ import leftArrow from "../../images/left-arrow.svg";
 
 import { teamMembers } from "../../utils/helpers";
 
+import Carousel from "../carousel";
+
 import "./styles.scss";
 
 const AboutUs = () => {
   return (
-    <div className="about-us--main-container">
+    <div className="mobile-about-us--main-container">
       <section className="about-us--general-details">
-        <div className="golden-heading" style={{ textAlign: "center" }}>
+        <div className="mobile-golden-heading">
           Open communication, equality and loyalty are the foundation of ips wap
           culture.
         </div>
@@ -31,7 +33,10 @@ const AboutUs = () => {
       </section>
       <section className="about-us-photo-gallery">
         <header className="photo-gallery--heading">
-          <div className="golden-heading" style={{ textAlign: "center" }}>
+          <div
+            className="mobile-golden-heading"
+            style={{ textAlign: "center" }}
+          >
             MEET THE TEAM
           </div>
           <div className="description">
@@ -40,15 +45,11 @@ const AboutUs = () => {
           </div>
         </header>
         <section className="cards-list">
-          {teamMembers.map((m) => (
-            <MemberCard member={m} />
-          ))}
-        </section>
-        <section className="arrow-container">
-          <div>
-            <img src={leftArrow} alt="" />
-            <img src={rightArrow} alt="" />
-          </div>
+          <Carousel position="down">
+            {teamMembers.map((m) => (
+              <MemberCard member={m} />
+            ))}
+          </Carousel>
         </section>
       </section>
     </div>

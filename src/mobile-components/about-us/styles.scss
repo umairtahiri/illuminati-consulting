@@ -1,18 +1,15 @@
-.about-us--main-container {
-  padding-bottom: 8%;
+.mobile-about-us--main-container {
   padding-top: 3%;
 
   .about-us--general-details {
     width: 100%;
     height: 100%;
-    padding: 0 21%;
+    padding: 0 10%;
 
     .details--text {
       font-size: 18px;
-      text-align: center;
       color: #989898;
-      padding: 0 10%;
-      margin-top: 50px;
+      margin-top: 40px;
     }
   }
 
@@ -24,7 +21,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     overflow: auto;
-    padding-bottom: 5%;
 
     .photo-gallery--heading {
       padding: 5% 0;
@@ -37,12 +33,12 @@
         text-align: center;
         color: #989898;
         margin-top: 20px;
+        padding: 0 20px;
       }
     }
 
     .cards-list {
       display: flex;
-      margin-left: -160px;
       overflow: hidden;
     }
 

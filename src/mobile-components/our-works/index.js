@@ -22,7 +22,7 @@ const OurWorks = () => {
   };
 
   return (
-    <div className="our-works--main-container">
+    <div className="mobile-our-works--main-container">
       <section className="our-works--links-container">
         {ourWorksOptions.map((o, ind) => {
           return (

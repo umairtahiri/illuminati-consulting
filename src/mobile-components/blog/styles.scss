@@ -1,5 +1,6 @@
 .blog-main-container {
-  padding: 0% 10% 10% 10%;
+  padding: 10%;
+  padding-top: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +36,6 @@
           color: #bbbbbb;
           font-weight: bold;
           font-size: 18px;
-          line-height: 31px;
           text-decoration: none;
           text-transform: uppercase;
         }
@@ -91,7 +91,7 @@
         .blog-banner-text {
           box-sizing: border-box;
 
-          .golden-heading {
+          .mobile-golden-heading {
             font-weight: 900;
             font-size: 20px;
             line-height: 24px;
@@ -111,12 +111,12 @@
 
   .bloglink--container {
     box-sizing: border-box;
-    padding-top: 75px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    .bloglink--main-container {
+    .mobile-bloglink--main-container {
       max-width: 290px;
       margin-bottom: 40px;
     }
@@ -127,7 +127,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 10% 0px 10%;
+    padding: 0 10% 0px 10%;
     font-size: 18px;
     line-height: 21px;
     color: #989898;

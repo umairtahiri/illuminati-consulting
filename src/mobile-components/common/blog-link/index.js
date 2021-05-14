@@ -8,7 +8,7 @@ const BlogLink = (props) => {
 
   const { pic, label, date, desc } = props;
   return (
-    <div className="bloglink--main-container">
+    <div className="mobile-bloglink--main-container">
       <div className="bloglink--img-container">
         <img
           alt="img"
@@ -18,7 +18,7 @@ const BlogLink = (props) => {
         />
       </div>
       <div className="bloglink--date">{date}</div>
-      <div className="golden-heading bloglink--label">{label}</div>
+      <div className="mobile-golden-heading bloglink--label">{label}</div>
       <div className="bloglink--description">{desc}</div>
     </div>
   );

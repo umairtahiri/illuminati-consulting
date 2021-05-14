@@ -11,7 +11,7 @@ const PictureFrame = (props) => {
         alt="pic"
         onClick={onclick}
       />
-      <div className="pictrure-frame-tag">{tag}</div>
+      <div className="picture-frame-tag">{tag}</div>
     </div>
   );
 };

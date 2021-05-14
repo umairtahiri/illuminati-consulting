@@ -20,9 +20,14 @@ const Header = () => {
       className="header--main-container"
       style={{ background: isBlack ? "#000" : "#fff" }}
     >
-      <img className="header-logo" src={logo} alt="logo" />
+      <img
+        className="header-logo"
+        src={logo}
+        onClick={() => history.push(`/home/connected-device`)}
+        alt="logo"
+      />
 
-      <button className="button">GET IN TOUCH</button>
+      <button className="mobile-button">GET IN TOUCH</button>
       {location.pathname.includes("menu") ? (
         <img
           src={cross}

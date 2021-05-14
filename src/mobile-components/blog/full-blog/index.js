@@ -12,11 +12,8 @@ import calender from "../../../images/calender.svg";
 import "./styles.scss";
 
 const BlogPage = () => {
-  const onChange = (date, dateString) => {
-    console.log(date, dateString);
-  };
   return (
-    <div className="blog-page-main-container">
+    <div className="mobile-blog-page-main-container">
       <img className="blogbanner" alt="banner" src={mobileBlogBanner} />
       <div className="mobile-blog-page-calender-links">
         <div className="blog-page-calender-container">
@@ -38,11 +35,11 @@ const BlogPage = () => {
           </div>
         </div>
       </div>
-      <div className="golden-heading blog-page-heading">
+      <div className="mobile-golden-heading blog-page-heading">
         An Update on the Implementation of the New FATF Travel Rule Requirements
       </div>
       <div className="blog-page-text">
-        n September, we touched on probably one of the biggest developments in
+        In September, we touched on probably one of the biggest developments in
         the crypto community to date – the FATF’s implementation of the new
         “travel rules” (new requirements for the provisioning of personal
         identifiable information (PII) regarding users involved in crypto

@@ -12,7 +12,7 @@ import Hyperledger from "./hyperledger";
 
 const BlockChain = () => {
   return (
-    <div className="block-chain-main-container">
+    <div className="mobile-block-chain-main-container">
       <Banner />
       <ServicesInFocus />
       <Infrastructure />

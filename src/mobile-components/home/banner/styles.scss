@@ -14,10 +14,9 @@
       font-weight: normal;
       font-size: 16px;
       line-height: 19px;
-      max-width: 629px;
       color: #989898;
       text-align: center;
-      padding: 0 11%;
+      margin-top: 22px;
     }
 
     .home--button {
@@ -100,7 +99,7 @@
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    padding: 2% 40%;
+    padding: 2% 20%;
 
     .dot {
       width: 10px;
@@ -110,15 +109,10 @@
       cursor: pointer;
     }
   }
-  .golden-heading {
+
+  .mobile-golden-heading {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 31px;
     line-height: 36px;
-    .shadow-heading {
-      font-weight: 900;
-      font-size: 40px;
-      line-height: 48px;
-      padding-top: 30px;
-    }
   }
 }

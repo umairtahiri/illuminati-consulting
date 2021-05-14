@@ -20,7 +20,11 @@ const Header = () => {
       className="header--main-container"
       style={{ background: isBlack ? "#000" : "#fff" }}
     >
-      <img src={logo} alt="logo" />
+      <img
+        src={logo}
+        alt="logo"
+        onClick={() => history.push(`/home/connected-device`)}
+      />
       <div className="header--button-container">
         <button className="button">GET IN TOUCH</button>
         {location.pathname.includes("menu") ? (

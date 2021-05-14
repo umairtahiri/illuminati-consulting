@@ -29,7 +29,7 @@ const OurWorksInternal = () => {
       </section>
       <section className="banner-picture-frame">
         <img className="picture-frame-img" src={car} alt="pic" />
-        <div className="pictrure-frame-tag">Smart Drone - SYMA</div>
+        <div className="picture-frame-tag">Smart Drone - SYMA</div>
       </section>
       <section className="internal-works--details">
         <div className="internal--works--column1">

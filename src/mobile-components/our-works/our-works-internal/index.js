@@ -26,16 +26,15 @@ const OurWorksInternal = () => {
         onClick={() => history.goBack()}
       >
         <img className="internal-works-back-arrow" src={arrow} alt="arrow" />
-        <header className="golden-heading">back</header>
+        <header className="mobile-golden-heading">back</header>
       </section>
       <section className="banner-picture-frame">
-        <img className="picture-frame-img" src={mobileWorksCar} alt="pic" />
-        <div className="pictrure-frame-tag">Smart Drone - SYMA</div>
+        <PictureFrame pic={mobileWorksCar} tag="Smart Drone - SYMA" />
       </section>
       <section className="mobile-internal-works--details">
         <div className="mobile-internal--works--column1">
           <div className="inernal--works-text1">
-            <div className="golden-heading header">
+            <div className="mobile-golden-heading header">
               Web & Mobile IoT Solution for BMW Dealer Showroom Services
             </div>
             <div className="description">
@@ -45,7 +44,7 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading">Project Goals</div>
+            <div className="mobile-golden-heading">Project Goals</div>
             <div className="description">
               Support BMW’s business processes & improve customer experience via
               tools for navigation and communication within showroom premises.
@@ -55,7 +54,7 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading">Work done</div>
+            <div className="mobile-golden-heading">Work done</div>
             <div className="description">
               <ul>
                 <li>
@@ -75,7 +74,7 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading">Solutions</div>
+            <div className="mobile-golden-heading">Solutions</div>
             <div className="description">
               We developed an end-to-end IoT solution powered by iBeacon
               technology and data analytics. To let managers have complete
@@ -85,7 +84,7 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading technologies">
+            <div className="mobile-golden-heading technologies">
               Technologies used:
             </div>
             <div className="internal--works-logo-container">
@@ -103,7 +102,7 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading header">
+            <div className="mobile-golden-heading header">
               Web App for Showroom Managers
             </div>
             <div className="description">
@@ -115,10 +114,10 @@ const OurWorksInternal = () => {
             </div>
           </div>
           <div className="inernal--works-text1">
-            <div className="golden-heading header">
+            <div className="mobile-golden-heading header">
               Mobile App for Clients & Employees
             </div>
-            <div className="golden-heading ">
+            <div className="mobile-golden-heading ">
               The functionality of the mobile app provides:
             </div>
             <div className="description">
@@ -151,7 +150,7 @@ const OurWorksInternal = () => {
       </section>
       <section className="internal--works-details2">
         <div className="inernal--works-text2">
-          <div className="golden-heading header">
+          <div className="mobile-golden-heading header">
             Web App for Showroom Managers
           </div>
           <div className="description">
@@ -163,10 +162,10 @@ const OurWorksInternal = () => {
           </div>
         </div>
         <div className="inernal--works-text2">
-          <div className="golden-heading">
+          <div className="mobile-golden-heading">
             Mobile App for Clients & Employees
           </div>
-          <div className="golden-heading sub-heading">
+          <div className="mobile-golden-heading sub-heading">
             The functionality of the mobile app provides:
           </div>
           <div className="description">
@@ -195,7 +194,7 @@ const OurWorksInternal = () => {
           </div>
         </div>
         <div className="inernal--works-pictures">
-          <Carousel>
+          <Carousel position="up">
             <PictureFrame pic={ourworkspic7} tag="Smart Drone - SYMA" />
             <PictureFrame pic={ourworkspic8} tag="Smart Drone - SYMA" />
             <PictureFrame pic={ourworkspic9} tag="Smart Drone - SYMA" />

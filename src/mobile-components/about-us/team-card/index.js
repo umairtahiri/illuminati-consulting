@@ -5,9 +5,9 @@ import "./styles.scss";
 const AboutUs = ({ member }) => {
   const { img, name, designation } = member;
   return (
-    <div className="team-card">
+    <div className="mobile-team-card">
       <img src={img} alt="" className="profile-pic" />
-      <div className="golden-heading">{name}</div>
+      <div className="mobile-golden-heading">{name}</div>
       <div className="designation">{designation}</div>
     </div>
   );

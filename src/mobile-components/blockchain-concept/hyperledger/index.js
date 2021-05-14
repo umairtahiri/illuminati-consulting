@@ -6,7 +6,7 @@ const Hyperledger = () => {
   return (
     <div className="mobile-hyperledger-main-container">
       <div className="hyperledger-side1">
-        <div className="hyperledger-title golden-heading">
+        <div className="hyperledger-title mobile-golden-heading">
           Shape up via Hyperledger blockchain infrastructure
         </div>
         <div className="hyperledger-text1">

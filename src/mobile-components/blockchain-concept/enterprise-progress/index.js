@@ -8,7 +8,7 @@ const Enterprise = () => {
     <div className="mobile-enterprise-main-container">
       <div className="enterprise-banner-container">
         <div className="enterprise-banner-text-container">
-          <div className="golden-heading enterprise-page-title">
+          <div className="mobile-golden-heading enterprise-page-title">
             Blockchain’s underlying magic unlocks enterprise progress
           </div>
           <div className="enterprise-page-description">
@@ -20,7 +20,7 @@ const Enterprise = () => {
           </div>
           <div className="enterprise-cards-container">
             <div className="enterprise-details">
-              <div className="golden-heading text">Social Media</div>
+              <div className="mobile-golden-heading text">Social Media</div>
               <div className="cards-list">
                 <ul>
                   <li>Digital identity verification</li>
@@ -43,7 +43,7 @@ const Enterprise = () => {
         />
       </div>
       <div className="enterprise-bitcoin-container">
-        <div className="golden-heading bitcoin-title">
+        <div className="mobile-golden-heading bitcoin-title">
           We adapt enterprise blockchain to suit your business model
         </div>
         <div className="enterprise-bitcoin-details">

@@ -1,5 +1,6 @@
 .mobile-internal-works--main-container {
-  padding: 10%;
+  padding: 10% 5%;
+  position: relative;
 
   .internal-works--header {
     display: flex;
@@ -8,7 +9,7 @@
     margin-bottom: 20px;
     cursor: pointer;
 
-    .golden-heading {
+    .mobile-golden-heading {
       font-size: 24px;
       text-transform: uppercase;
       text-decoration-line: underline;
@@ -24,30 +25,6 @@
 
   .banner-picture-frame {
     position: relative;
-
-    .picture-frame-img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-      cursor: pointer;
-    }
-
-    .pictrure-frame-tag {
-      position: absolute;
-      width: 241px;
-      height: 59px;
-      background: #dba360;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 12px;
-      line-height: 14px;
-      text-transform: uppercase;
-      color: #ffffff;
-      padding: 20px 15px 15px 20px;
-      bottom: -10px;
-      right: 5px;
-      cursor: pointer;
-    }
   }
 
   .mobile-internal-works--details {
@@ -67,7 +44,7 @@
         box-sizing: border-box;
         padding: 2px 40px;
 
-        .golden-heading {
+        .mobile-golden-heading {
           font-weight: 900;
           font-size: 18px;
           line-height: 21px;
@@ -128,7 +105,7 @@
     .inernal--works-text2 {
       margin-bottom: 5%;
 
-      .golden-heading {
+      .mobile-golden-heading {
         font-size: 30px;
         margin-bottom: 20px;
       }

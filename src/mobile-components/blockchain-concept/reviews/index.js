@@ -19,7 +19,9 @@ const Reviews = () => {
             src={mobileReviewFrame}
           />
           <div className="client-details-container">
-            <div className="golden-heading client-name">Morgan Rosenblum</div>
+            <div className="mobile-golden-heading client-name">
+              Morgan Rosenblum
+            </div>
             <div className="client-designation">CEO. Darkrose Studio</div>
             <div className="client-review">
               The standard chunk of Lorem Ipsum used since the 1500s is

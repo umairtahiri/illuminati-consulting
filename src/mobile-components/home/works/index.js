@@ -16,7 +16,7 @@ const Works = () => {
     <div className="mobile-works--main-container">
       <ShadowHeading text="works" padding="30px" />
       <div className="works--pictures">
-        <Carousel>
+        <Carousel position="up">
           <PictureFrame pic={pic1} tag="Smart Drone - SYMA" />
           <PictureFrame pic={pic2} tag="Smart Drone - SYMA" />
           <PictureFrame pic={pic3} tag="Smart Drone - SYMA" />

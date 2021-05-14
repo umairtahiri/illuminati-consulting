@@ -9,7 +9,7 @@ import "./styles.scss";
 const TechnologyPlatforms = () => {
   return (
     <div className="mobile-tech-platforms-main-container">
-      <div className="golden-heading tech-platforms-title">
+      <div className="mobile-golden-heading">
         Blockchain Technology Platforms
       </div>
       <div className="tech-platforms-description">
@@ -30,10 +30,7 @@ const TechnologyPlatforms = () => {
           className="tech-platforms-logos"
         />
       </div>
-      <div
-        className="golden-heading tech-platforms-title"
-        style={{ marginTop: "100px" }}
-      >
+      <div className="mobile-golden-heading" style={{ marginTop: "60px" }}>
         Technology Stack
       </div>
       <div className="texhlogo-container1">

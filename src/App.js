@@ -22,7 +22,9 @@ const App = () => {
 
   const [width] = useWindowSize();
 
-  return <MobileApp />;
+  console.log({ width });
+
+  return width > 768 ? <DeskTopApp /> : <MobileApp />;
 };
 
 export default App;

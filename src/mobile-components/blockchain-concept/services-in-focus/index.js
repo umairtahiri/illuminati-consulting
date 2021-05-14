@@ -11,7 +11,7 @@ const ServicesInFocus = () => {
   return (
     <section className="mobile-services-in-focus--main-container">
       <header>
-        <h1 className="golden-heading">Our services in focus</h1>
+        <h1 className="mobile-golden-heading">Our services in focus</h1>
         <p className="details">
           Always at the frontline of blockchain innovation, we’ve grown our DLT
           muscle to be capable of building an entire decentralized ecosystem
@@ -21,7 +21,7 @@ const ServicesInFocus = () => {
         </p>
       </header>
       <div className="cards-wrapper">
-        <Carousel>
+        <Carousel position="up">
           {servicesInFocusList.map((s) => (
             <Card title={s.title} detail={s.detail} />
           ))}

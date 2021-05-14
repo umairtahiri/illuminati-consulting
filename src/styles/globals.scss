@@ -31,6 +31,15 @@ code {
   z-index: 2;
 }
 
+.mobile-golden-heading {
+  color: #dba360;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  z-index: 2;
+}
+
 .button {
   width: 200px;
   height: 50px;
@@ -40,6 +49,20 @@ code {
   background: none;
   font-weight: bold;
   font-size: 16px;
+  line-height: 17px;
+  color: #dba360;
+  cursor: pointer;
+}
+
+.mobile-button {
+  width: 140px;
+  height: 40px;
+  border: 1.5px solid #dba360;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background: none;
+  font-weight: bold;
+  font-size: 12px;
   line-height: 17px;
   color: #dba360;
   cursor: pointer;

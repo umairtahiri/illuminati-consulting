@@ -52,7 +52,7 @@ const Blog = () => {
         <div className="blog--links-banner">
           <div className="blog--links-banner-text">
             <div className="blog-banner-text">
-              <div className="golden-heading">
+              <div className="mobile-golden-heading">
                 An Update on the Implementation of the New FATF Travel Rule
                 Requirements
               </div>

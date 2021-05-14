@@ -1,7 +1,6 @@
-.picture-frame {
-  max-width: 33%;
-  margin-bottom: 5rem;
-  min-width: 300px;
+.mobile-picture-frame {
+  margin-bottom: 43px;
+  position: relative;
 
   .picture-frame-img {
     height: 100%;
@@ -11,10 +10,9 @@
     position: relative;
   }
 
-  .pictrure-frame-tag {
+  .picture-frame-tag {
     position: absolute;
     width: 241px;
-    height: 59px;
     background: #dba360;
     font-style: normal;
     font-weight: 900;

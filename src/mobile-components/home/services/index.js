@@ -16,13 +16,13 @@ const Services = () => {
         <div className="services--header">
           <ShadowHeading text="our services" />
           <div className="button-container">
-            <button style={{ marginTop: "30px" }} className="button">
+            <button style={{ margin: "30px 0" }} className="mobile-button">
               TECH DOMAINS
             </button>
           </div>
         </div>
         <div className="services--text">
-          <div className="golden-heading">IT Consulting</div>
+          <div className="mobile-golden-heading">IT Consulting</div>
           <ul className="services--text-lists">
             <li>Business case analysis</li>
             <li>Project scoping and phase mapping</li>
@@ -34,7 +34,9 @@ const Services = () => {
         </div>
 
         <div className="services--text">
-          <div className="golden-heading">Customer Engagement via UI/UX</div>
+          <div className="mobile-golden-heading">
+            Customer Engagement via UI/UX
+          </div>
           <ul className="services--text-lists">
             <li>Building mockups, wireframes, and clickable prototypes</li>
             <li>Human-centered design</li>
@@ -52,8 +54,7 @@ const Services = () => {
                 toggleButton();
                 setmoreButton(false);
               }}
-              style={{ marginTop: "30px" }}
-              className="button"
+              className="mobile-button"
             >
               more
             </button>
@@ -62,7 +63,7 @@ const Services = () => {
         {showServices && (
           <div>
             <div className="services--text">
-              <div className="golden-heading">Mobile Development</div>
+              <div className="mobile-golden-heading">Mobile Development</div>
               <ul className="services--text-lists">
                 <li>iOS app development</li>
                 <li>Android app development</li>
@@ -74,7 +75,7 @@ const Services = () => {
             </div>
 
             <div className="services--text">
-              <div className="golden-heading">
+              <div className="mobile-golden-heading">
                 Enterprise Application Development
               </div>
               <ul className="services--text-lists">
@@ -88,7 +89,7 @@ const Services = () => {
               </ul>
             </div>
             <div className="services--text">
-              <div className="golden-heading">Quality Assurance</div>
+              <div className="mobile-golden-heading">Quality Assurance</div>
               <ul className="services--text-lists">
                 <li>QA and testing strategy enablement</li>
                 <li>End-to-end manual testing</li>
@@ -105,8 +106,7 @@ const Services = () => {
                   toggleButton();
                   setmoreButton(true);
                 }}
-                style={{ marginTop: "30px" }}
-                className="button"
+                className="mobile-button"
               >
                 Less
               </button>

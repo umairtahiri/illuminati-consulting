@@ -1,6 +1,4 @@
 .mobile-infrastructure--main-container {
-  padding: 10%;
-
   .infrastructure-banner-container {
     background: #212121;
     display: flex;
@@ -10,14 +8,15 @@
     overflow: hidden;
 
     .infrastructure-banner {
-      padding: 10% 0 3% 0;
+      padding: 35% 0 3% 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url("../../../images//bitcoin-1.png");
+      background: url(../../../images//bitcoin-1.png);
       background-repeat: no-repeat;
-      background-position-x: center;
-      background-position-y: 25%;
+      background-position-y: 20%;
+      background-position-x: 50%;
+      background-size: 65%;
 
       .infrastructure-text-container {
         display: flex;
@@ -27,20 +26,15 @@
         box-sizing: border-box;
         z-index: 999;
 
-        .golden-heading {
+        .mobile-golden-heading {
           text-align: center;
-          margin-top: 8%;
-          font-weight: 900;
-          font-size: 25px;
-          line-height: 30px;
-          margin-bottom: 25%;
           padding: 0 10%;
         }
 
         .detail {
           padding: 0 10%;
           bottom: 0;
-          margin-top: 15px;
+          margin-top: 110px;
           font-style: normal;
           font-weight: normal;
           font-size: 18px;

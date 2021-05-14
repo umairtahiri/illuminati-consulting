@@ -19,12 +19,14 @@ const Footer = () => {
           +1 (646) 490-0772 (USA) <div>info@Illuminati Consulting.io</div>
         </div>
         <div className="mobile-social-links-container">
-          <div className="golden-heading footer-heading">Follow us</div>
+          <div className="mobile-golden-heading footer-heading">Follow us</div>
           <MediaLinks background="#E5E5E5" />
         </div>
       </div>
       <div className="footer--text-container">
-        <div className="footer--text">SUBSCRIBE TO OUR NEWSLETTEr</div>
+        <div className="footer--text" style={{ marginBottom: "40px" }}>
+          SUBSCRIBE TO OUR NEWSLETTEr
+        </div>
         <div className="footer-input-wrapper">
           <input
             placeholder="Enter your E-mail address"

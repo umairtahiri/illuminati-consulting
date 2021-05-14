@@ -9,7 +9,7 @@ const Infrastructure = () => {
       <div className="infrastructure-banner-container">
         <section className="infrastructure-banner">
           <div className="infrastructure-text-container">
-            <h1 className="golden-heading">
+            <h1 className="mobile-golden-heading">
               We build enterprise blockchain infrastructures from A to Z
             </h1>
             <p className="detail">

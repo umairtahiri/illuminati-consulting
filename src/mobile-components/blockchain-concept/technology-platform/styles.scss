@@ -1,15 +1,13 @@
 .mobile-tech-platforms-main-container {
-  padding: 10% 15% 10% 15%;
+  padding: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
-  .tech-platforms-title {
+  .mobile-golden-heading {
     text-align: center;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 30px;
+    margin-top: 60px;
   }
 
   .tech-platforms-description {
@@ -19,7 +17,6 @@
     text-align: center;
     margin-top: 20px;
     box-sizing: border-box;
-    padding: 0 10%;
     color: #989898;
   }
   .texhlogo-container1 {

@@ -15,7 +15,10 @@ const ClientSatisfaction = () => {
         />
 
         <div className="overlay">
-          <div className="client-satisfaction-title golden-heading">
+          <div
+            className="mobile-golden-heading"
+            style={{ textAlign: "center" }}
+          >
             Client satisfaction is our fundamental value
           </div>
           <div className="client-satisfaction-img-container">
