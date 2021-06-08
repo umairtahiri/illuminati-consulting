@@ -9,16 +9,12 @@ const Banner = () => {
         <h1 className="golden-heading">
           Full-Stack Blockchain<br></br> Development Services
         </h1>
-        <h3 className="sub-heading">
-          A powerful trigger for your business growth
-        </h3>
+        <h3 className="sub-heading">Take your business to new heights.</h3>
         <p className="details">
-          Once you consider our enterprise blockchain company to help you build
-          a market-specific decentralized app,<br></br> you’re on the right
-          track. We’re here to deliver business solutions that offer more than
-          just data security — they<br></br> are about complete workflow
-          control, saved man-hours, and rock-solid quality of goods and
-          services.
+          Are you looking to overcome IT challenges and provide brilliant
+          blockchain solutions ?<br></br> Look no further than our team of
+          professionals and blockchain experts. We provide a<br></br> rock-solid
+          take on the blockchain industry.
         </p>
       </div>
     </section>

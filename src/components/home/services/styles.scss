@@ -16,11 +16,13 @@
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      min-height: 550px;
+      min-height: 580px;
       flex: 1;
     }
 
     .services--header {
+      height: 100%;
+
       .golden-heading {
         font-size: 50px;
         position: relative;
@@ -28,6 +30,8 @@
     }
 
     .services--text {
+      height: 100%;
+
       .golden-heading {
         font-size: 16px;
         margin-bottom: 15px;

@@ -27,14 +27,11 @@ const hearOptions = [
 const ContactUs = () => {
   return (
     <div className="mobile-contact-us--container">
-      <header className="mobile-golden-heading">
-        Let's discuss how we can<br></br> collaborate or schedule<br></br> a
-        meeting
-      </header>
+      <header className="mobile-golden-heading">Let’s Work Together!</header>
       <div className="contact-us--description">
-        Whether you are looking for a software project estimation or a technical
-        consultation on your idea, you're in the right place. Leave us a note,
-        and we'll get back to you within 24 hours.
+        Whether you’re looking to optimize your software or if you require a
+        technical consultation, we’re here to help! By filling out our form,
+        we’ll get back to you within 24 hours.
       </div>
       <section className="contact-us--form-container">
         <form>

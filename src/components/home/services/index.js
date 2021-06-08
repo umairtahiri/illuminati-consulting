@@ -16,60 +16,60 @@ const Services = () => {
             </button>
           </div>
           <div className="services--text">
-            <div className="golden-heading">IT Consulting</div>
+            <div className="golden-heading">CONNECTED DEVICES (IOT)</div>
             <ul className="services--text-lists">
-              <li>Business case analysis</li>
-              <li>Project scoping and phase mapping</li>
-              <li>Strategic planning & advisory</li>
+              <li>Provide a safe place for shared information to land</li>
+              <li>Share information seamlessly among different platforms</li>
+              {/* <li>Strategic planning & advisory</li>
               <li>Solution architecture & infrastructure planning</li>
               <li>Operational assessment and benchmarking</li>
-              <li>Rollout & testing roadmappings</li>
-            </ul>
-          </div>
-        </div>
-        <div className="services--details">
-          <div className="services--text">
-            <div className="golden-heading">Customer Engagement via UI/UX</div>
-            <ul className="services--text-lists">
-              <li>Building mockups, wireframes, and clickable prototypes</li>
-              <li>Human-centered design</li>
-              <li>Usability analysis and metrics Implementation</li>
-              <li>Enabling seamless cross-platform experience</li>
-              <li>Creating intuitive and clean UIs</li>
-              <li>Designing custom animations and effects</li>
-              <li>
-                Apple Human Interface and Google Material Design compliance
-              </li>
-            </ul>
-          </div>
-          <div className="services--text">
-            <div className="golden-heading">Mobile Development</div>
-            <ul className="services--text-lists">
-              <li>iOS app development</li>
-              <li>Android app development</li>
-              <li>Cross-platform mobile software development</li>
-              <li>Mobile crypto wallet app development</li>
-              <li>Mobile game app development</li>
-              <li>Mobile apps for the IoT and embedded systems</li>
+              <li>Rollout & testing roadmappings</li> */}
             </ul>
           </div>
         </div>
         <div className="services--details">
           <div className="services--text">
             <div className="golden-heading">
-              Enterprise Application Development
+              FULL-CYCLE SOLUTION ENGINEERING
             </div>
             <ul className="services--text-lists">
-              <li>Consumer-oriented software development</li>
-              <li>High usability, responsive software design</li>
-              <li>Cloud computing, horizontal scaling enablement</li>
-              <li>Composable architecture implementation</li>
-              <li>Loose coupling upon microservices & well defined APIs</li>
-              <li>Low-code development, rapid app delivery (RAD)</li>
-              <li>AI techniques implementation</li>
+              <li>Build, design, and engineer a website</li>
+              <li>Troubleshoot problems as they arise</li>
+              <li>Markup writing and coding</li>
+              {/* <li>Enabling seamless cross-platform experience</li>
+              <li>Creating intuitive and clean UIs</li>
+              <li>Designing custom animations and effects</li>
+              <li>
+                Apple Human Interface and Google Material Design compliance
+              </li> */}
             </ul>
           </div>
           <div className="services--text">
+            <div className="golden-heading">ARTIFICIAL INTELLIGENCE</div>
+            <ul className="services--text-lists">
+              <li>Streamline daily tasks</li>
+              <li>Implement state-of-the-art AI techniques</li>
+              <li>Minimize tasks</li>
+              {/* <li>Mobile crypto wallet app development</li>
+              <li>Mobile game app development</li>
+              <li>Mobile apps for the IoT and embedded systems</li> */}
+            </ul>
+          </div>
+        </div>
+        <div className="services--details">
+          <div className="services--text">
+            <div className="golden-heading">BLOCKCHAIN DEVELOPMENT</div>
+            <ul className="services--text-lists">
+              <li>Save your transactions</li>
+              <li>Provide top-of-the-line security</li>
+              <li>Enable secure transactions</li>
+              {/* <li>Composable architecture implementation</li>
+              <li>Loose coupling upon microservices & well defined APIs</li>
+              <li>Low-code development, rapid app delivery (RAD)</li>
+              <li>AI techniques implementation</li> */}
+            </ul>
+          </div>
+          {/* <div className="services--text">
             <div className="golden-heading">Quality Assurance</div>
             <ul className="services--text-lists">
               <li>QA and testing strategy enablement</li>
@@ -80,7 +80,7 @@ const Services = () => {
               <li>Continuous delivery and integration</li>
               <li>Tool-based issue tracking and test management</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

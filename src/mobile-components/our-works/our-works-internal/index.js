@@ -35,52 +35,41 @@ const OurWorksInternal = () => {
         <div className="mobile-internal--works--column1">
           <div className="inernal--works-text1">
             <div className="mobile-golden-heading header">
-              Web & Mobile IoT Solution for BMW Dealer Showroom Services
+              CONNECTED DEVICES (IOT) SERVICES FOR BMW DEALER SHOWROOM SERVICES
             </div>
             <div className="description">
-              iBeacon-powered IoT solution with web and mobile app for data
-              management and communication between dealers, showroom visitors,
-              car owners, and BMW employees
+              Working with one of the biggest names in the car business, we
+              streamlined their processes with our Connected Devices (IOT)
+              Services.
             </div>
           </div>
           <div className="inernal--works-text1">
             <div className="mobile-golden-heading">Project Goals</div>
             <div className="description">
-              Support BMW’s business processes & improve customer experience via
-              tools for navigation and communication within showroom premises.
-              Introduce apps for BMW managers to collect & analyze data on
-              customer behavior and offer easier access to maintenance services
-              for car owners.
+              BMW hoped to improve the customer experience while still keeping
+              their platform intuitive for their staff and managers. We worked
+              with them to ensure that data analysis was easy to read and
+              maintain.
             </div>
           </div>
           <div className="inernal--works-text1">
             <div className="mobile-golden-heading">Work done</div>
             <div className="description">
               <ul>
-                <li>
-                  Mobile app for showroom navigation purposes and for car owners
-                  to easily access maintenance and support services
-                </li>
-                <li> IoT software to collect and store data from iBeacons</li>
-                <li>
-                  AI software to analyze data and generate heat maps & showroom
-                  visitor statistics
-                </li>
-                <li>
-                  Web app for showroom employees and managers with dashboard
-                  showing real-time information
-                </li>
+                <li>Intuitive mobile app</li>
+                <li>IoT software</li>
+                <li>Modern AI software to show heat maps</li>
+                <li>Web app for showroom</li>
               </ul>
             </div>
           </div>
           <div className="inernal--works-text1">
             <div className="mobile-golden-heading">Solutions</div>
             <div className="description">
-              We developed an end-to-end IoT solution powered by iBeacon
-              technology and data analytics. To let managers have complete
-              control over customer experience, our design team came up with an
-              intuitive dashboard with all information neatly organized into one
-              view.
+              Our team of experts worked closely to present an end-to-end IoT
+              solution powered by iBeacon technology. We developed an
+              interactive dashboard to hold information that managers and
+              employees had to access.
             </div>
           </div>
           <div className="inernal--works-text1">

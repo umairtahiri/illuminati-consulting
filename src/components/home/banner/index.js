@@ -26,10 +26,9 @@ const Banner = () => {
             <section className="left-section">
               <ShadowHeading text="connected devices (iot)" />
               <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
+                Streamline transfers and enhances capabilities with this
+                device-improving process. With Connected Devices (IoT), we build
+                on the knowledge of a device to make its abilities outstanding.
               </div>
               <MediaLinks background="#333333" />
               <button className="home--button">Learn more</button>
@@ -52,10 +51,9 @@ const Banner = () => {
             <section className="left-section">
               <ShadowHeading text="full-cycle solution engineering" />
               <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
+                Dominate the internet and technology with our full-cycle
+                solution engineering. Our exceptional engineers gear up to help
+                you with any concern at any time.
               </div>
               <MediaLinks background="#333333" />
               <button className="home--button">Learn more</button>
@@ -72,10 +70,9 @@ const Banner = () => {
             <section className="left-section">
               <ShadowHeading text="artificial intelligence" />
               <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
+                The future is here, and it’s streamlined workplaces, daily
+                routines, and problem-solving. With AI, you can plan inventory,
+                optimize products, and read analytics more successfully.
               </div>
               <MediaLinks background="#333333" />
               <button className="home--button">Learn more</button>
@@ -92,10 +89,9 @@ const Banner = () => {
             <section className="left-section">
               <ShadowHeading text="Blockchain Development" />
               <div className="home--description">
-                With Machine Learning and camputer Vision software engineering,
-                we help
-                <br></br> trigger a digital makeover and translete raw into
-                measrable business growth.
+                Prevent changes or hacks with our state-of-the-art blockchain
+                development. Digital transactions have never been so secure or
+                offered peace of mind before now.
               </div>
               <MediaLinks background="#333333" />
               <button className="home--button">Learn more</button>

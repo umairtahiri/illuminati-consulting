@@ -14,19 +14,15 @@ const AboutUs = () => {
     <div className="about-us--main-container">
       <section className="about-us--general-details">
         <div className="golden-heading" style={{ textAlign: "center" }}>
-          Open communication, equality and loyalty are the foundation of ips wap
-          culture.
+          A TRANSFORMATIVE TEAM OF IPS WAP CULTURE: PRIORITIZING EQUALITY AND
+          LOYALTY.
         </div>
         <div className="details--text">
-          PixelPlex is a company with rich history, talented experts, strong
-          team spirit and high moral values. Each representative of our staff
-          contributes to PixelPlex legacy and long history of supporting
-          innovation and developing outstanding products.
-        </div>
-        <div className="details--text">
-          PixelPlex encourages inclusion and diversity. Team members feel
-          supported and their ideas are cherished by the company. This creates a
-          healthy working environment with unity and loyalty as primary values.
+          Meet our team! We have carefully curated a team of rising stars and
+          brilliant professionals to bring you the best knowledge and education
+          on the market. Our team is diverse in their backgrounds and education,
+          and together, we’ve built a well-oiled machine ready to take on
+          technology.
         </div>
       </section>
       <section className="about-us-photo-gallery">

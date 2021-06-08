@@ -30,15 +30,11 @@ const ContactUs = () => {
 
   return (
     <div className="contact-us--container">
-      <header className="golden-heading">
-        Let's discuss how we can<br></br> collaborate or schedule<br></br> a
-        meeting
-      </header>
+      <header className="golden-heading">Let’s Work Together!</header>
       <div className="contact-us--description">
-        Whether you are looking for a software project estimation or a technical
-        <br></br>
-        consultation on your idea, you're in the right place.<br></br> Leave us
-        a note, and we'll get back to you within 24 hours.
+        Whether you’re looking to optimize your software or if you require
+        <br></br> a technical consultation, we’re here to help! By filling out
+        our form,<br></br> we’ll get back to you within 24 hours.
       </div>
       <section className="contact-us--form-container">
         <form>

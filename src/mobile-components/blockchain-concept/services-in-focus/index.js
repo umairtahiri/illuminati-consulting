@@ -13,11 +13,10 @@ const ServicesInFocus = () => {
       <header>
         <h1 className="mobile-golden-heading">Our services in focus</h1>
         <p className="details">
-          Always at the frontline of blockchain innovation, we’ve grown our DLT
-          muscle to be capable of building an entire decentralized ecosystem
-          from the ground up. Time and time again, our solutions help clients
-          streamline business workflows, establish rock-solid safety, and boost
-          ROI.
+          Blockchain is always changing, which is why we stay on top of trends,
+          strategies, and techniques to ensure that we’re constantly providing
+          you with the most innovative solutions. Boost your ROI and dominate
+          the cryptocurrency market.
         </p>
       </header>
       <div className="cards-wrapper">
